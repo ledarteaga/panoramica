@@ -6,12 +6,9 @@
         <div class="header-inner rpy-10 rel d-flex align-items-center">
           <div class="logo-outer">
             <div class="logo">
-              <NuxtLink href="/"
-                ><img
-                  src="/assets/images/logos/logo.png"
-                  alt="Logo"
-                  title="Logo"
-              /></NuxtLink>
+              <NuxtLink href="/">
+                <Logo style="width: 161px; height: 60px" />
+              </NuxtLink>
             </div>
           </div>
 
@@ -22,7 +19,7 @@
                 <div class="mobile-logo">
                   <NuxtLink href="/">
                     <img
-                      src="/assets/images/logos/logo.png"
+                      src="/assets/images/logos/logo.svg"
                       alt="Logo"
                       title="Logo"
                     />
@@ -52,8 +49,8 @@
                   <li><a href="#services">services</a></li>
                   <li><a href="#projects">project</a></li>
                   <li><a href="#team">team</a></li>
-                  <li><a href="#pricing">pricing</a></li>
-                  <li><a href="#news">news</a></li>
+                  <!-- <li><a href="#pricing">pricing</a></li> -->
+                  <!-- <li><a href="#news">news</a></li> -->
                 </ul>
                 <Nav v-else />
               </div>
@@ -62,7 +59,7 @@
           </div>
 
           <!-- Nav Search -->
-          <Search />
+          <!-- <Search /> -->
 
           <!-- Menu Button -->
           <div class="menu-btns">
@@ -84,10 +81,11 @@
 <script>
 import Nav from "./Nav.vue";
 import Search from "./Search.vue";
+import Logo from "~/public/assets/images/logos/logo.svg";
 
 export default {
   name: "Header1",
-  components: { Nav, Search },
+  components: { Nav, Search, Logo },
   props: {
     singlePage: {
       type: Boolean,

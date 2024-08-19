@@ -11,7 +11,7 @@
           </div>
           <div class="col-lg-4">
             <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s">
-              <img src="/assets/images/hero/hero-right.png" alt="Hero" />
+              <!-- <img src="/assets/images/hero/hero-right.png" alt="Hero" /> -->
             </div>
           </div>
         </div>
@@ -52,18 +52,20 @@
           <div class="col-xl-7 col-lg-9">
             <div class="about-content wow fadeInUp delay-0-4s">
               <div class="section-title mb-40">
-                <span class="sub-title mb-15">About Company</span>
-                <h2>Our Main Goal to Satisficed Local & Global Clients</h2>
+                <span class="sub-title mb-15">Quienes Somos</span>
+                <h2>
+                  Contamos con más de 10 años de experiencia trabajando en estas
+                  áreas.
+                </h2>
               </div>
               <div class="content">
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam aperiam eaque quae
-                  abillo inventore veritatisey et quasi architecto beatae vitae
-                  dictasunt explicabo voluptatem.
+                  Somos un equipo de profesionales que brindan sopórte en los
+                  cuatro pilares más importantes de una empresa: Marketing,
+                  Contenido audiovisual, Finanzas y Recursos Humanos.
                 </p>
                 <NuxtLink class="read-more mt-10" href="about"
-                  >Read More <i class="far fa-arrow-right"></i
+                  >Ver Más <i class="far fa-arrow-right"></i
                 ></NuxtLink>
               </div>
             </div>
@@ -77,7 +79,7 @@
     <div class="headline-area pt-90 rpt-85 rel z-1">
       <div class="container-fluid">
         <div class="headline-text marquee">
-          <span>Web <span>Design</span> Agency</span>
+          <span>Marketing <span>Finanzas</span> RRHH</span>
         </div>
       </div>
     </div>
@@ -90,7 +92,7 @@
           <div class="col-xl-5 col-lg-8">
             <div class="what-we-do-content mb-55">
               <div class="section-title mb-60 wow fadeInUp delay-0-2s">
-                <span class="sub-title mb-15">What We Do</span>
+                <span class="sub-title mb-15">Nuestros Servicios</span>
                 <h2>Latest Way to Get Web Solutions & Business Growth</h2>
               </div>
               <div class="what-we-do-item wow fadeInUp delay-0-3s">
@@ -98,13 +100,16 @@
                   <span>01</span>
                 </div>
                 <div class="content">
-                  <h5>Mobile Solutions</h5>
+                  <h5>Social Media</h5>
                   <p>
-                    Sed ut perspiciatis unde omnis natus error voluptatem
-                    accusantium doloremque
+                    Nuestro objetivo principal es comunicar, en su mejor
+                    expresión, el alma del restaurante y la experiencia ideal
+                    del cliente a través de las redes sociales, priorizando el
+                    crecimiento de la comunidad y el alcance de la marca en su
+                    sector.
                   </p>
                   <NuxtLink class="read-more style-two" href="service-details"
-                    ><span>Read More</span> <i class="far fa-arrow-right"></i
+                    ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                   ></NuxtLink>
                 </div>
               </div>
@@ -113,13 +118,15 @@
                   <span>02</span>
                 </div>
                 <div class="content">
-                  <h5>Web Solutions</h5>
+                  <h5>Diseño Gráfico</h5>
                   <p>
-                    Quis autem veleum iure reprehe nderitecy quie voluptate
-                    velit esse quam nihile
+                    Parte de la cara de la marca es su diseño y estética
+                    gráfica. Branding, manuales de marca, diseños para redes y
+                    web son solo algunos de los servicios que podemos ofrecer,
+                    todo siguiendo una misma línea de comunicación.
                   </p>
                   <NuxtLink class="read-more style-two" href="service-details"
-                    ><span>Read More</span> <i class="far fa-arrow-right"></i
+                    ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                   ></NuxtLink>
                 </div>
               </div>
@@ -128,13 +135,15 @@
                   <span>03</span>
                 </div>
                 <div class="content">
-                  <h5>Custome Solutions</h5>
+                  <h5>Audiovisual</h5>
                   <p>
-                    We denounce with righteous indignation and dislike beguiled
-                    demoralized charms
+                    Creamos contenido audiovisual atractivo y de alta calidad,
+                    trabajado en base a una estrategia de comunicación para
+                    obtener el mejor resultado y un material audiovisual con
+                    bastante millaje.
                   </p>
                   <NuxtLink class="read-more style-two" href="service-details"
-                    ><span>Read More</span> <i class="far fa-arrow-right"></i
+                    ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                   ></NuxtLink>
                 </div>
               </div>
@@ -143,7 +152,7 @@
           <div class="col-xl-6">
             <div class="what-we-do-image mb-55 wow fadeInRight delay-0-2s">
               <img
-                src="/assets/images/services/what-we-do.jpg"
+                src="/assets/images/services/what-we-do.jpeg"
                 alt="What We Do"
               />
             </div>
@@ -188,7 +197,7 @@
               <div class="content">
                 <p>We denounce with righteous indignation dislike beguile</p>
                 <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Read More</span> <i class="far fa-arrow-right"></i
+                  ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                 ></NuxtLink>
               </div>
             </div>
@@ -206,7 +215,7 @@
               <div class="content">
                 <p>At vero eos et accusamus et dignissim ducimbl ditiis</p>
                 <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Read More</span> <i class="far fa-arrow-right"></i
+                  ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                 ></NuxtLink>
               </div>
             </div>
@@ -224,7 +233,7 @@
               <div class="content">
                 <p>To take trivial example which ever undertakes laborious</p>
                 <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Read More</span> <i class="far fa-arrow-right"></i
+                  ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                 ></NuxtLink>
               </div>
             </div>
@@ -240,7 +249,7 @@
               <div class="content">
                 <p>Sed persiciatis unde omnisey natus error voluptatem</p>
                 <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Read More</span> <i class="far fa-arrow-right"></i
+                  ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                 ></NuxtLink>
               </div>
             </div>
@@ -266,31 +275,29 @@
         <div class="row justify-content-between align-items-center pb-25">
           <div class="col-xl-6 col-lg-8">
             <div class="section-title mb-30 wow fadeInLeft delay-0-2s">
-              <span class="sub-title mb-15">Recent Works Gallery</span>
-              <h2>Lat’s Look Our Recent Project Gallery</h2>
+              <!-- <span class="sub-title mb-15">Nuestros Proyectos</span> -->
+              <h2>Corporativos</h2>
             </div>
           </div>
-          <div class="col-lg-4 text-lg-end">
+          <!-- <div class="col-lg-4 text-lg-end">
             <NuxtLink
               href="projects"
               class="theme-btn mb-25 wow fadeInRight delay-0-2s"
-              >View More Projects <i class="far fa-arrow-right"></i
+              >Ver más proyectos <i class="far fa-arrow-right"></i
             ></NuxtLink>
-          </div>
+          </div> -->
         </div>
 
         <div class="project-timeline wow fadeInUp delay-0-2s">
           <div class="content">
             <span class="serial-number">01</span>
             <h4>
-              <NuxtLink href="project-details"
-                >Business Task Management Dashboard Design</NuxtLink
-              >
+              <NuxtLink href="project-details">MELANGE</NuxtLink>
             </h4>
           </div>
           <div class="image">
             <img
-              src="/assets/images/projects/project-timeline1.jpg"
+              src="/assets/images/projects/project-timeline1.png"
               alt="Project TimeLine Image"
             />
           </div>
@@ -304,19 +311,17 @@
           <div class="content">
             <span class="serial-number">02</span>
             <h4>
-              <NuxtLink href="project-details"
-                >PSD, Figma & XD to HTML Design & Development</NuxtLink
-              >
+              <NuxtLink href="project-details2">CORP FUNG</NuxtLink>
             </h4>
           </div>
           <div class="image">
             <img
-              src="/assets/images/projects/project-timeline2.jpg"
+              src="/assets/images/projects/project-timeline2.png"
               alt="Project TimeLine Image"
             />
           </div>
           <div class="right-btn">
-            <NuxtLink class="details-btn" href="project-details"
+            <NuxtLink class="details-btn" href="project-details2"
               ><i class="fal fa-long-arrow-right"></i
             ></NuxtLink>
           </div>
@@ -325,19 +330,17 @@
           <div class="content">
             <span class="serial-number">03</span>
             <h4>
-              <NuxtLink href="project-details"
-                >Mobile Application Design & Development</NuxtLink
-              >
+              <NuxtLink href="project-details3">BZR</NuxtLink>
             </h4>
           </div>
           <div class="image">
             <img
-              src="/assets/images/projects/project-timeline3.jpg"
+              src="/assets/images/projects/project-timeline3.png"
               alt="Project TimeLine Image"
             />
           </div>
           <div class="right-btn">
-            <NuxtLink class="details-btn" href="project-details"
+            <NuxtLink class="details-btn" href="project-details3"
               ><i class="fal fa-long-arrow-right"></i
             ></NuxtLink>
           </div>
@@ -354,8 +357,8 @@
             <div
               class="section-title text-center mb-55 wow fadeInUp delay-0-2s"
             >
-              <span class="sub-title mb-20">Team Members</span>
-              <h2>Meet Our Professionals Team</h2>
+              <span class="sub-title mb-20">NUESTRO EQUIPO</span>
+              <h2>Conoce Nuestro Equipo</h2>
             </div>
           </div>
         </div>
@@ -367,11 +370,11 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-2s">
               <div class="image">
-                <img src="/assets/images/team/member1.jpg" alt="Team Member" />
+                <img src="/assets/images/team/member1.png" alt="Team Member" />
               </div>
               <div class="content">
-                <h4>Patrick V. Schroeder</h4>
-                <span>UI/UX Designer</span>
+                <h4>Claudia Fung</h4>
+                <span>Marketing</span>
                 <NuxtLink class="read-more" href="team-details"
                   ><i class="far fa-arrow-right"></i
                 ></NuxtLink>
@@ -392,11 +395,11 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-3s">
               <div class="image">
-                <img src="/assets/images/team/member2.jpg" alt="Team Member" />
+                <img src="/assets/images/team/member2.png" alt="Team Member" />
               </div>
               <div class="content">
-                <h4>Michael A. Braun</h4>
-                <span>UI/UX Designer</span>
+                <h4>Jorge Arteaga</h4>
+                <span>Comunicador</span>
                 <NuxtLink class="read-more" href="team-details"
                   ><i class="far fa-arrow-right"></i
                 ></NuxtLink>
@@ -417,11 +420,15 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-4s">
               <div class="image">
-                <img src="/assets/images/team/member3.jpg" alt="Team Member" />
+                <img
+                  src="/assets/images/team/member3.png"
+                  class="h-100"
+                  alt="Team Member"
+                />
               </div>
               <div class="content">
-                <h4>James V. Decastro</h4>
-                <span>Senior Marketer</span>
+                <h4>Corina Montoya</h4>
+                <span>RRHH</span>
                 <NuxtLink class="read-more" href="team-details"
                   ><i class="far fa-arrow-right"></i
                 ></NuxtLink>
@@ -442,36 +449,11 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-5s">
               <div class="image">
-                <img src="/assets/images/team/member4.jpg" alt="Team Member" />
+                <img src="/assets/images/team/member4.jpeg" alt="Team Member" />
               </div>
               <div class="content">
-                <h4>Troy V. Richardson</h4>
-                <span>Web Designer</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
-                <div class="social-style-two">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-member wow fadeInUp delay-0-6s">
-              <div class="image">
-                <img src="/assets/images/team/member5.jpg" alt="Team Member" />
-              </div>
-              <div class="content">
-                <h4>Michael A. Braun</h4>
-                <span>Apps Designer</span>
+                <h4>Rodrigo Merizalde</h4>
+                <span>Economista</span>
                 <NuxtLink class="read-more" href="team-details"
                   ><i class="far fa-arrow-right"></i
                 ></NuxtLink>
@@ -505,7 +487,7 @@
     <!-- Headline Area end -->
 
     <!-- Pricing style three start -->
-    <section class="pricing-area-three pt-85">
+    <!-- <section class="pricing-area-three pt-85">
       <div class="container container-1290">
         <div class="row justify-content-center">
           <div class="col-xl-8 col-lg-10">
@@ -616,7 +598,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Pricing style three end -->
 
     <!-- Why Choose Us Area start -->
@@ -709,7 +691,7 @@
     <!-- Testimonial Area end -->
 
     <!-- Blog Style Two start -->
-    <section class="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
+    <!-- <section class="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
       <div class="container container-1290">
         <div class="row justify-content-center">
           <div class="col-xl-8 col-lg-10">
@@ -744,7 +726,7 @@
                 >
               </h4>
               <NuxtLink class="read-more" href="blog-details"
-                >Read More <i class="far fa-arrow-right"></i
+                >Ver Más <i class="far fa-arrow-right"></i
               ></NuxtLink>
             </div>
           </div>
@@ -771,7 +753,7 @@
                 >
               </h4>
               <NuxtLink class="read-more" href="blog-details"
-                >Read More <i class="far fa-arrow-right"></i
+                >Ver Más <i class="far fa-arrow-right"></i
               ></NuxtLink>
             </div>
           </div>
@@ -798,13 +780,13 @@
                 >
               </h4>
               <NuxtLink class="read-more" href="blog-details"
-                >Read More <i class="far fa-arrow-right"></i
+                >Ver Más <i class="far fa-arrow-right"></i
               ></NuxtLink>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Blog Style Two end -->
   </NuxtLayout>
 </template>

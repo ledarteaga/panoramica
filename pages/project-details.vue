@@ -2,7 +2,7 @@
   <NuxtLayout name="ygency">
     <!-- Page Banner Section Start -->
     <section
-      class="page-banner pt-210 rpt-150 pb-75 rel z-1"
+      class="page-banner pt-210 rpt-150 pb-75 rel z-1 opacity-25"
       style="background-image: url(assets/images/hero/hero-two-bg.png)"
     >
       <div class="container container-1290">
@@ -11,7 +11,7 @@
             <h1
               class="hero-title style-two mt-65 mb-30 wow fadeInUp delay-0-2s"
             >
-              Software Development
+              MELANGE
               <img
                 class="mxw-10 leaf"
                 src="/assets/images/banner/leaf-small.png"
@@ -19,14 +19,9 @@
               />
             </h1>
             <div class="banner-text wow fadeInUp delay-0-3s">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam eaqu quae
-              abillo inventore veritatis et quasi architecto beatae vitae dicta
-              sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eosqui ratione voluptatem sequi nesciunt. Neque porro quisquam est
-              dolorem epsum quia dolor sit amet, consectetur, adipisci velit,
-              sed quia non numquam eius modi temporae
+              Melange es mezcla. Cientos de años de mestizaje, es una cocina
+              viajera, confortable, moderna y deliciosa, una cocina para venir
+              siempre.
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@
       :percent="value"
       :border-width="25"
       :border-bg-width="25"
-      :fillColor="'#55E6A5'"
+      :fillColor="'#fc4c02'"
       :emptyColor="'white'"
       :viewport="true"
       :linecap="'none'"

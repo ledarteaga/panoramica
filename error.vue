@@ -10,7 +10,7 @@
               <div class="logo">
                 <NuxtLink href="/"
                   ><img
-                    src="/assets/images/logos/logo.png"
+                    src="/assets/images/logos/logo.svg"
                     alt="Logo"
                     title="Logo"
                 /></NuxtLink>

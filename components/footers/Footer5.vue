@@ -6,7 +6,7 @@
           <div class="footer-widget footer-about wow fadeInUp delay-0-2s">
             <div class="footer-logo mb-25">
               <NuxtLink href="/"
-                ><img src="/assets/images/logos/logo.png" alt="Logo"
+                ><img src="/assets/images/logos/logo.svg" alt="Logo"
               /></NuxtLink>
             </div>
             <p>

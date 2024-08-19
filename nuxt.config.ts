@@ -2,13 +2,16 @@
 
 export default defineNuxtConfig({
   ssr: false,
-  modules: ["nuxt-swiper"],
+  modules: ["nuxt-swiper", "nuxt-svgo"],
   devtools: { enabled: true },
+  devServer: {
+    host: "0.0.0.0",
+  },
   app: {
     head: {
-      title: "Ygency - Web Agency Vue NuxtJS Template",
+      title: "PANORÁMICA CONSULTING",
       htmlAttrs: {
-        lang: "en",
+        lang: "es",
       },
       meta: [
         { charset: "utf-8" },
@@ -38,4 +41,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  compatibilityDate: "2024-08-18",
 });

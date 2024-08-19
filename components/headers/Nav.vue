@@ -1,8 +1,8 @@
 <template>
   <ul class="navigation clearfix">
     <li class="dropdown">
-      <a href="#">Home</a>
-      <ul>
+      <a href="#">Inicio</a>
+      <!-- <ul>
         <li class="dropdown">
           <a href="#">MultiPage</a>
           <ul>
@@ -40,10 +40,10 @@
           <div v-html="dropdown"></div>
         </li>
       </ul>
-      <div v-html="dropdown"></div>
+      <div v-html="dropdown"></div> -->
     </li>
-    <li><NuxtLink href="/about">About Us</NuxtLink></li>
-    <li class="dropdown">
+    <li><NuxtLink href="/about">Nuestro Equipo</NuxtLink></li>
+    <!-- <li class="dropdown">
       <a href="#">pages</a>
       <ul>
         <li><NuxtLink href="/faqs">faqs</NuxtLink></li>
@@ -70,9 +70,9 @@
         <li><NuxtLink href="/404">404 error</NuxtLink></li>
       </ul>
       <div v-html="dropdown"></div>
-    </li>
+    </li> -->
     <li class="dropdown">
-      <a href="#">Services</a>
+      <a href="#">Nuestros Servicios</a>
       <ul>
         <li><NuxtLink href="/services">Our Services</NuxtLink></li>
         <li>
@@ -85,7 +85,7 @@
       <div v-html="dropdown"></div>
     </li>
     <li class="dropdown">
-      <a href="#">Projects</a>
+      <a href="#">Proyectos</a>
       <ul>
         <li><NuxtLink href="/projects">Project Grid</NuxtLink></li>
         <li><NuxtLink href="/project-list">Project List</NuxtLink></li>
@@ -95,7 +95,7 @@
       </ul>
       <div v-html="dropdown"></div>
     </li>
-    <li class="dropdown">
+    <!-- <li class="dropdown">
       <a href="#">blog</a>
       <ul>
         <li><NuxtLink href="/blog">blog Grid</NuxtLink></li>
@@ -103,7 +103,7 @@
         <li><NuxtLink href="/blog-details">blog details</NuxtLink></li>
       </ul>
       <div v-html="dropdown"></div>
-    </li>
+    </li> -->
   </ul>
 </template>
 
