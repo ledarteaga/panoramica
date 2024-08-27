@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="hero-content wow fadeInLeft delay-0-2s">
-              <h1>Web <span>Design</span> <i>Agency</i></h1>
+              <h1>Agencia <span>de</span> <i>Marketing</i></h1>
             </div>
           </div>
           <div class="col-lg-4">
@@ -53,10 +53,7 @@
             <div class="about-content wow fadeInUp delay-0-4s">
               <div class="section-title mb-40">
                 <span class="sub-title mb-15">Quienes Somos</span>
-                <h2>
-                  Contamos con más de 10 años de experiencia trabajando en estas
-                  áreas.
-                </h2>
+                <h2>Más de 10 años de experiencia nos avalan.</h2>
               </div>
               <div class="content">
                 <p>

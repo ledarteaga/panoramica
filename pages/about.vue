@@ -102,8 +102,10 @@
             <div
               class="section-title text-center mb-70 wow fadeInUp delay-0-2s"
             >
-              <span class="sub-title mb-15">Who We Are</span>
-              <h2>We are Professional and Experience Team</h2>
+              <span class="sub-title mb-15">Quienes Somos</span>
+              <h2>
+                Un equipo de profesionales con más de 10 años de experiencia
+              </h2>
             </div>
           </div>
         </div>
@@ -112,7 +114,7 @@
             <div class="why-choose-item style-two wow fadeInUp delay-0-2s">
               <div class="why-choose-header">
                 <i class="flaticon-creativity"></i>
-                <h5>Customize your site</h5>
+                <h5>Administración y Finanzas</h5>
               </div>
               <p>
                 At vero eos et accusamus iusto dignissim ducimuse blanditiis
@@ -124,7 +126,7 @@
             <div class="why-choose-item style-two wow fadeInUp delay-0-4s">
               <div class="why-choose-header">
                 <i class="flaticon-mobile-banking"></i>
-                <h5>Edit your mobile view</h5>
+                <h5>Recursos Humanos</h5>
               </div>
               <p>
                 Ut enim ad minima veniam, quis nostrum exercitationem ullam
@@ -136,7 +138,7 @@
             <div class="why-choose-item style-two wow fadeInUp delay-0-6s">
               <div class="why-choose-header">
                 <i class="flaticon-optimization-1"></i>
-                <h5>Optimize search engines</h5>
+                <h5>Marketing y Contenidos</h5>
               </div>
               <p>
                 Quis autem vel eum iure reprehenderi qui ea voluptate velit esse

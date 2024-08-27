@@ -41,7 +41,7 @@
           </div>
           <div class="col-lg-6">
             <div class="hero-two-image mb-50 wow zoomIn delay-0-2s">
-              <img src="/assets/images/hero/hero-two.jpg" alt="Hero" />
+              <img src="/assets/images/hero/hero-two-bg.png" alt="Hero" />
             </div>
           </div>
           <div class="col-lg-2">

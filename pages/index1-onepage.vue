@@ -143,7 +143,7 @@
           <div class="col-xl-6">
             <div class="what-we-do-image mb-55 wow fadeInRight delay-0-2s">
               <img
-                src="/assets/images/services/what-we-do.jpg"
+                src="/assets/images/services/what-we-do.jpeg"
                 alt="What We Do"
               />
             </div>
@@ -290,7 +290,7 @@
           </div>
           <div class="image">
             <img
-              src="/assets/images/projects/project-timeline1.jpg"
+              src="/assets/images/projects/project-timeline1.png"
               alt="Project TimeLine Image"
             />
           </div>
@@ -311,7 +311,7 @@
           </div>
           <div class="image">
             <img
-              src="/assets/images/projects/project-timeline2.jpg"
+              src="/assets/images/projects/project-timeline2.png"
               alt="Project TimeLine Image"
             />
           </div>
@@ -332,7 +332,7 @@
           </div>
           <div class="image">
             <img
-              src="/assets/images/projects/project-timeline3.jpg"
+              src="/assets/images/projects/project-timeline3.png"
               alt="Project TimeLine Image"
             />
           </div>
@@ -367,7 +367,7 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-2s">
               <div class="image">
-                <img src="/assets/images/team/member1.jpg" alt="Team Member" />
+                <img src="/assets/images/team/member1.png" alt="Team Member" />
               </div>
               <div class="content">
                 <h4>Patrick V. Schroeder</h4>
@@ -392,7 +392,7 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-3s">
               <div class="image">
-                <img src="/assets/images/team/member2.jpg" alt="Team Member" />
+                <img src="/assets/images/team/member2.png" alt="Team Member" />
               </div>
               <div class="content">
                 <h4>Michael A. Braun</h4>
@@ -417,7 +417,7 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-4s">
               <div class="image">
-                <img src="/assets/images/team/member3.jpg" alt="Team Member" />
+                <img src="/assets/images/team/member3.png" alt="Team Member" />
               </div>
               <div class="content">
                 <h4>James V. Decastro</h4>
@@ -442,7 +442,7 @@
           <div class="col">
             <div class="team-member wow fadeInUp delay-0-5s">
               <div class="image">
-                <img src="/assets/images/team/member4.jpg" alt="Team Member" />
+                <img src="/assets/images/team/member4.jpeg" alt="Team Member" />
               </div>
               <div class="content">
                 <h4>Troy V. Richardson</h4>
