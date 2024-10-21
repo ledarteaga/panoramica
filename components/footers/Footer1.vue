@@ -36,10 +36,10 @@
           <div class="footer-left-content pt-80">
             <div class="lets-work mb-50 wow fadeInUp delay-0-2s">
               <img
-                src="/assets/images/footer/lets-work.png"
+                src="/assets/images/logos/icon-logo.png"
                 alt="Let's Work Man"
               />
-              <span>Let’s Work Together</span>
+              <span>Ponte en Contacto</span>
             </div>
             <div class="footer-contact-info wow fadeInUp delay-0-3s">
               <a class="theme-btn style-three" href="mailto:support@gmail.com"
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4">
           <div class="footer-right-content">
             <h4 class="footer-title wow fadeInUp delay-0-2s">Quick Links</h4>
             <div class="footer-widget widget_nav_menu">
@@ -73,12 +73,12 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="footer-bottom">
         <div class="row align-items-center">
           <div class="col-xl-8 col-lg-6">
-            <div
+            <!-- <div
               class="footer-bottom-menu pt-40 pb-35 rpb-0 wow fadeInRight delay-0-2s"
             >
               <ul>
@@ -87,7 +87,7 @@
                 <li><NuxtLink href="faqs">Faqs</NuxtLink></li>
                 <li><NuxtLink href="services">How IT Works</NuxtLink></li>
               </ul>
-            </div>
+            </div> -->
           </div>
           <div class="col-xl-4 col-lg-6">
             <div
@@ -95,7 +95,7 @@
             >
               <p>
                 Copyright @{{ new Date().getFullYear() }},
-                <NuxtLink href="/">Ygency</NuxtLink> All Rights Reserved
+                <NuxtLink href="/">Panoramica</NuxtLink> All Rights Reserved
               </p>
             </div>
           </div>

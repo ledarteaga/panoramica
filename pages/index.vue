@@ -96,7 +96,7 @@
                     alcance y potencian tus ventas para un crecimiento
                     sostenible.
                   </p>
-                  <NuxtLink class="read-more style-two" href="service-details"
+                  <NuxtLink class="read-more style-two" href="about-marketing"
                     ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                   ></NuxtLink>
                 </div>
@@ -130,7 +130,7 @@
                     recursos y ayudamos a tomar mejores decisiones para
                     garantizar un futuro sólido a tu negocio.
                   </p>
-                  <NuxtLink class="read-more style-two" href="service-details"
+                  <NuxtLink class="read-more style-two" href="about-finanzas"
                     ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                   ></NuxtLink>
                 </div>
