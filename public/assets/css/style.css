@@ -47,55 +47,55 @@
 
 @font-face {
   font-family: "Rok Grotesk";
-  src: url("../fonts/rocgrotesk-regular.otf") format("opentype");
+  src: url(".../fonts/full/Kostic - Roc Grotesk Regular.otf") format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Rok Grotesk";
-  src: url("../fonts/rocgrotesk-bold.otf") format("opentype");
+  src: url("../fonts/full/Kostic - Roc Grotesk Bold.otf") format("opentype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Rok Grotesk";
-  src: url("../fonts/rocgrotesk-extrabold.otf") format("opentype");
+  src: url("../fonts/full/Kostic - Roc Grotesk ExtraBold.otf") format("opentype");
   font-weight: bolder;
 }
 
 @font-face {
   font-family: "Rok Grotesk Wide";
-  src: url("../fonts/rocgroteskwide-regular.otf") format("opentype");
+  src: url("../fonts/full/Kostic - Roc Grotesk Wide.otf") format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Rok Grotesk Wide";
-  src: url("../fonts/rocgroteskwide-bold.otf") format("opentype");
+  src: url("../fonts/full/Kostic - Roc Grotesk Wide/ Bold.otf") format("opentype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Rok Grotesk Wide";
-  src: url("../fonts/rocgroteskwide-extrabold.otf") format("opentype");
+  src: url("../fonts/full/Kostic - Roc Grotesk Wide/ ExtraBold.otf") format("opentype");
   font-weight: bolder;
 }
 
 @font-face {
   font-family: "Rok Grotesk Condensed";
-  src: url("../fonts/rocgroteskcond-regular.otf") format("opentype");
+  src: url("../fonts/full/Kostic - Roc Grotesk Condensed.otf") format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Rok Grotesk Condensed";
-  src: url("../fonts/rocgroteskcond-bold.otf") format("opentype");
+  src: url("../fonts/full/Kostic - Roc Grotesk Condensed/ Bold.otf") format("opentype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Rok Grotesk Condensed";
-  src: url("../fonts/rocgroteskcond-extrabold.otf") format("opentype");
+  src: url("../fonts/full/Kostic - Roc Grotesk Condensed/ ExtraBold.otf") format("opentype");
   font-weight: bolder;
 }
 
@@ -483,9 +483,9 @@ input[type="radio"] {
   margin-right: 10px;
   background: url(../images/icons/sub-title.svg) no-repeat 100% 100%;
 }
-.section-title h2 {
+/* .section-title h2 {
   text-transform: capitalize;
-}
+} */
 @media only screen and (max-width: 767px) {
   .section-title h2 {
     font-size: 40px;
@@ -5049,7 +5049,7 @@ h6,
 }
 @media only screen and (max-width: 479px) {
   .hero-content h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -5084,7 +5084,7 @@ h6,
 }
 @media only screen and (max-width: 575px) {
   .hero-bottom-image img {
-    max-width: calc(100% - 50px);
+    max-width: calc(100% - 100px);
   }
 }
 
@@ -6336,9 +6336,9 @@ h6,
 /******************* ## About Area ********************/
 /*******************************************************/
 @media only screen and (min-width: 576px) {
-  .about-content .content {
+  /* .about-content .content {
     margin-left: 60px;
-  }
+  } */
 }
 
 .about-image img {
@@ -11895,33 +11895,36 @@ blockquote .blockquote-footer:before {
 /**************** ## Client Logo Area ******************/
 /*******************************************************/
 .client-logo-wrap {
-  margin-left: -30px;
-  margin-right: -30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
+}
+.client-logo-wrap .client-logo-item {
+  max-width: 18%;
+  -webkit-filter: grayscale(1) opacity(0.2);
+  filter: grayscale(1) opacity(0.2);
+  transition: all 0.3s;
 }
 @media only screen and (max-width: 1199px) {
   .client-logo-wrap {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
+
+  .client-logo-wrap .client-logo-item {
+    max-width: 25%;
+  }
 }
-.client-logo-wrap .client-logo-item {
-  max-width: 40%;
-  margin: 0 30px 30px;
-  -webkit-filter: grayscale(1) opacity(0.2);
-  filter: grayscale(1) opacity(0.2);
-}
+
 .client-logo-wrap .client-logo-item:hover {
   -webkit-filter: grayscale(0) opacity(1);
   filter: grayscale(0) opacity(1);

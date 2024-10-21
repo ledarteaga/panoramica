@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="hero-content wow fadeInLeft delay-0-2s">
-              <h1>Agencia <span>de</span> <i>Marketing</i></h1>
+              <h1>Consultora <span>Creativa</span> <i>Integral</i></h1>
             </div>
           </div>
           <div class="col-lg-4">
@@ -16,9 +16,9 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid mt-15">
         <div class="hero-bottom-image">
-          <img src="/assets/images/hero/hero.jpg" alt="Hero" />
+          <img src="/assets/images/hero/desk-bg.webp" alt="Hero" />
           <div class="hero-social">
             <a href="#"
               ><i class="fab fa-facebook-f"></i> <span>Facebook</span></a
@@ -40,30 +40,28 @@
     <!-- About Us Area start -->
     <section class="about-area pt-130 rpt-100 rel z-1">
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-xl-5 col-lg-3">
+        <div class="row justify-content-center">
+          <!-- <div class="col-xl-5 col-lg-3">
             <div class="about-image rmb-45 wow fadeInUp delay-0-2s">
               <img
                 src="/assets/images/about/circle-text.svg"
                 alt="Circle Text"
               />
             </div>
-          </div>
+          </div> -->
           <div class="col-xl-7 col-lg-9">
             <div class="about-content wow fadeInUp delay-0-4s">
               <div class="section-title mb-40">
                 <span class="sub-title mb-15">Quienes Somos</span>
-                <h2>Más de 10 años de experiencia nos avalan.</h2>
+                <h2>Ayudamos a marcas a alcanzar su máximo potencial.</h2>
               </div>
               <div class="content">
                 <p>
-                  Somos un equipo de profesionales que brindan sopórte en los
-                  cuatro pilares más importantes de una empresa: Marketing,
-                  Contenido audiovisual, Finanzas y Recursos Humanos.
+                  Nuestro servicio empieza desde el asesoramiento, la
+                  estrategia, creación e implementación de planes de crecimiento
+                  para tu negocio, en áreas como marketing, finanzas, gestión
+                  humana y empresarial.
                 </p>
-                <NuxtLink class="read-more mt-10" href="about"
-                  >Ver Más <i class="far fa-arrow-right"></i
-                ></NuxtLink>
               </div>
             </div>
           </div>
@@ -72,16 +70,6 @@
     </section>
     <!-- About Us Area end -->
 
-    <!-- Headline area start -->
-    <div class="headline-area pt-90 rpt-85 rel z-1">
-      <div class="container-fluid">
-        <div class="headline-text marquee">
-          <span>Marketing <span>Finanzas</span> RRHH</span>
-        </div>
-      </div>
-    </div>
-    <!-- Headline Area end -->
-
     <!-- What We Do start -->
     <section class="what-we-do-area pt-90 rpt-80 rel z-1">
       <div class="container">
@@ -89,21 +77,24 @@
           <div class="col-xl-5 col-lg-8">
             <div class="what-we-do-content mb-55">
               <div class="section-title mb-60 wow fadeInUp delay-0-2s">
-                <span class="sub-title mb-15">Nuestros Servicios</span>
-                <h2>Latest Way to Get Web Solutions & Business Growth</h2>
+                <span class="sub-title mb-15 text-capitalize"
+                  >Nuestros Servicios</span
+                >
+                <h2>Todo lo que podemos hacer juntos</h2>
               </div>
               <div class="what-we-do-item wow fadeInUp delay-0-3s">
                 <div class="number">
                   <span>01</span>
                 </div>
                 <div class="content">
-                  <h5>Social Media</h5>
+                  <h5>Marketing y Comunicaciones</h5>
                   <p>
-                    Nuestro objetivo principal es comunicar, en su mejor
-                    expresión, el alma del restaurante y la experiencia ideal
-                    del cliente a través de las redes sociales, priorizando el
-                    crecimiento de la comunidad y el alcance de la marca en su
-                    sector.
+                    El motor estratégico que impulsa un negocio, conectando tu
+                    marca con las personas correctas en el momento adecuado. En
+                    Panorámica Consulting usamos el mundo digital para crear
+                    esta conexión, utilizando herramientas que maximizan el
+                    alcance y potencian tus ventas para un crecimiento
+                    sostenible.
                   </p>
                   <NuxtLink class="read-more style-two" href="service-details"
                     ><span>Ver Más</span> <i class="far fa-arrow-right"></i
@@ -115,12 +106,12 @@
                   <span>02</span>
                 </div>
                 <div class="content">
-                  <h5>Diseño Gráfico</h5>
+                  <h5>Gestión Humana, Empresarial y Administrativa</h5>
                   <p>
-                    Parte de la cara de la marca es su diseño y estética
-                    gráfica. Branding, manuales de marca, diseños para redes y
-                    web son solo algunos de los servicios que podemos ofrecer,
-                    todo siguiendo una misma línea de comunicación.
+                    Una consultora de recursos humanos brinda una variedad de
+                    soluciones enfocadas en ayudar a las empresas a gestionar y
+                    potenciar su talento, optimizando la gestión de personal y
+                    mejorando sus estrategias y procesos.
                   </p>
                   <NuxtLink class="read-more style-two" href="service-details"
                     ><span>Ver Más</span> <i class="far fa-arrow-right"></i
@@ -132,12 +123,12 @@
                   <span>03</span>
                 </div>
                 <div class="content">
-                  <h5>Audiovisual</h5>
+                  <h5>Soluciones Financieras</h5>
                   <p>
-                    Creamos contenido audiovisual atractivo y de alta calidad,
-                    trabajado en base a una estrategia de comunicación para
-                    obtener el mejor resultado y un material audiovisual con
-                    bastante millaje.
+                    Ordenamos y transformamos tus finanzas en oportunidades de
+                    crecimiento. Con planificación estratégica, optimizamos tus
+                    recursos y ayudamos a tomar mejores decisiones para
+                    garantizar un futuro sólido a tu negocio.
                   </p>
                   <NuxtLink class="read-more style-two" href="service-details"
                     ><span>Ver Más</span> <i class="far fa-arrow-right"></i
@@ -159,15 +150,7 @@
     </section>
     <!-- What We Do end -->
 
-    <!-- Statistics Area start -->
-    <div class="statistics-area pt-75 rpt-45 rel z-1">
-      <div class="container">
-        <CountersCounter />
-      </div>
-    </div>
-    <!-- Statistics Area end -->
-
-    <!-- Service Style Three start -->
+    <!-- Corporative start -->
     <section class="service-three-area pt-70 rpt-40 rel z-1">
       <div class="container">
         <div class="row justify-content-center">
@@ -175,176 +158,99 @@
             <div
               class="section-title text-center mb-60 wow fadeInUp delay-0-2s"
             >
-              <span class="sub-title mb-20">Popular Services</span>
-              <h2>We Provide Amazing Web Design Solutions</h2>
+              <span class="sub-title mb-20">Nuestros Clientes</span>
+              <h2>Marcas que confiaron en nosotros</h2>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-three-item wow fadeInUp delay-0-2s">
-              <div class="title-icon">
-                <h5>
-                  <NuxtLink href="service-details"
-                    >Web Design From Figma</NuxtLink
-                  >
-                </h5>
-                <img src="/assets/images/services/icon1.png" alt="Icon" />
-              </div>
-              <div class="content">
-                <p>We denounce with righteous indignation dislike beguile</p>
-                <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Ver Más</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-three-item wow fadeInDown delay-0-2s">
-              <div class="title-icon">
-                <h5>
-                  <NuxtLink href="service-details"
-                    >PSD, Figma, XD to HTML Convert</NuxtLink
-                  >
-                </h5>
-                <img src="/assets/images/services/icon2.png" alt="Icon" />
-              </div>
-              <div class="content">
-                <p>At vero eos et accusamus et dignissim ducimbl ditiis</p>
-                <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Ver Más</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-three-item wow fadeInUp delay-0-2s">
-              <div class="title-icon">
-                <h5>
-                  <NuxtLink href="service-details"
-                    >WordPress Development</NuxtLink
-                  >
-                </h5>
-                <img src="/assets/images/services/icon3.png" alt="Icon" />
-              </div>
-              <div class="content">
-                <p>To take trivial example which ever undertakes laborious</p>
-                <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Ver Más</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-three-item wow fadeInDown delay-0-2s">
-              <div class="title-icon">
-                <h5>
-                  <NuxtLink href="service-details">React Development</NuxtLink>
-                </h5>
-                <img src="/assets/images/services/icon4.png" alt="Icon" />
-              </div>
-              <div class="content">
-                <p>Sed persiciatis unde omnisey natus error voluptatem</p>
-                <NuxtLink class="read-more style-two" href="service-details"
-                  ><span>Ver Más</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
+
+        <div class="row justify-content-center">
+          <div class="col-10 col-xl-11 px-0">
+            <div class="client-logo-wrap gap-4 gap-xl-5">
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/project-timeline1.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/project-timeline2.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/project-timeline3.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/sangucheria-22.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <!-- <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/tequenos.png"
+                  alt="Project TimeLine Image"
+                />
+              </span> -->
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/aval-herrera.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/Rodizio Scheveningen Logo.png  "
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/Logo MB blanco.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/LOGO 500 GRADOS blanco.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/SAPIENS_logo blanco.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/LOGO CALLAO_blanco.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/Santos logo bruin_zwart.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
+              <span class="client-logo-item" href="contact">
+                <img
+                  src="/assets/images/projects/mayta.png"
+                  alt="Project TimeLine Image"
+                />
+              </span>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Service Style Three end -->
-
-    <!-- Headline area start -->
-    <div class="headline-area pt-65 rpt-60 rel z-1">
-      <div class="container-fluid">
-        <div class="headline-text marquee">
-          <span><span>Digital</span> solutions</span>
-        </div>
-      </div>
-    </div>
-    <!-- Headline Area end -->
-
-    <!-- Project Timeline Area start -->
-    <section class="project-timeline-area pt-90 rpt-75 rel z-1">
-      <div class="container container-1290">
-        <div class="row justify-content-between align-items-center pb-25">
-          <div class="col-xl-6 col-lg-8">
-            <div class="section-title mb-30 wow fadeInLeft delay-0-2s">
-              <!-- <span class="sub-title mb-15">Nuestros Proyectos</span> -->
-              <h2>Corporativos</h2>
-            </div>
-          </div>
-          <!-- <div class="col-lg-4 text-lg-end">
-            <NuxtLink
-              href="projects"
-              class="theme-btn mb-25 wow fadeInRight delay-0-2s"
-              >Ver más proyectos <i class="far fa-arrow-right"></i
-            ></NuxtLink>
-          </div> -->
-        </div>
-
-        <div class="project-timeline wow fadeInUp delay-0-2s">
-          <div class="content">
-            <span class="serial-number">01</span>
-            <h4>
-              <NuxtLink href="project-details">MELANGE</NuxtLink>
-            </h4>
-          </div>
-          <div class="image">
-            <img
-              src="/assets/images/projects/project-timeline1.png"
-              alt="Project TimeLine Image"
-            />
-          </div>
-          <div class="right-btn">
-            <NuxtLink class="details-btn" href="project-details"
-              ><i class="fal fa-long-arrow-right"></i
-            ></NuxtLink>
-          </div>
-        </div>
-        <div class="project-timeline wow fadeInUp delay-0-2s">
-          <div class="content">
-            <span class="serial-number">02</span>
-            <h4>
-              <NuxtLink href="project-details2">CORP FUNG</NuxtLink>
-            </h4>
-          </div>
-          <div class="image">
-            <img
-              src="/assets/images/projects/project-timeline2.png"
-              alt="Project TimeLine Image"
-            />
-          </div>
-          <div class="right-btn">
-            <NuxtLink class="details-btn" href="project-details2"
-              ><i class="fal fa-long-arrow-right"></i
-            ></NuxtLink>
-          </div>
-        </div>
-        <div class="project-timeline wow fadeInUp delay-0-2s">
-          <div class="content">
-            <span class="serial-number">03</span>
-            <h4>
-              <NuxtLink href="project-details3">BZR</NuxtLink>
-            </h4>
-          </div>
-          <div class="image">
-            <img
-              src="/assets/images/projects/project-timeline3.png"
-              alt="Project TimeLine Image"
-            />
-          </div>
-          <div class="right-btn">
-            <NuxtLink class="details-btn" href="project-details3"
-              ><i class="fal fa-long-arrow-right"></i
-            ></NuxtLink>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Project Timeline Area end -->
+    <!-- Corporate Three end -->
 
     <!-- Team Area start -->
     <section class="team-area pt-70 rpt-40">
@@ -354,8 +260,8 @@
             <div
               class="section-title text-center mb-55 wow fadeInUp delay-0-2s"
             >
-              <span class="sub-title mb-20">NUESTRO EQUIPO</span>
-              <h2>Conoce Nuestro Equipo</h2>
+              <span class="sub-title mb-20">Conocenos</span>
+              <h2>Nuestro Equipo</h2>
             </div>
           </div>
         </div>
@@ -474,15 +380,14 @@
     <!-- Team Area end -->
 
     <!-- Headline area start -->
-    <div class="headline-area pt-65 rpt-55 rel z-1">
+    <div class="headline-area pt-90 rpt-85 rel z-1">
       <div class="container-fluid">
         <div class="headline-text marquee">
-          <span>pricing <span>Package</span></span>
+          <span>Marketing <span>Finanzas</span> RRHH</span>
         </div>
       </div>
     </div>
     <!-- Headline Area end -->
-
     <!-- Pricing style three start -->
     <!-- <section class="pricing-area-three pt-85">
       <div class="container container-1290">
@@ -599,7 +504,7 @@
     <!-- Pricing style three end -->
 
     <!-- Why Choose Us Area start -->
-    <section class="why-choose-area pt-90 rpt-60 rel z-1">
+    <!-- <section class="why-choose-area pt-90 rpt-60 rel z-1">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xl-7">
@@ -670,21 +575,21 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Why Choose Us Area end -->
 
     <!-- Headline area start -->
-    <div class="headline-area pt-60 rpt-50 rel z-1">
+    <!-- <div class="headline-area pt-60 rpt-50 rel z-1">
       <div class="container-fluid">
         <div class="headline-text marquee">
           <span><span>clients</span> Say’s</span>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Headline Area end -->
 
     <!-- Testimonial Area start -->
-    <SlidersTestimonial />
+    <!-- <SlidersTestimonial /> -->
     <!-- Testimonial Area end -->
 
     <!-- Blog Style Two start -->
@@ -790,11 +695,14 @@
 
 <script>
 import { ygencyUtilits } from "~/utilits";
+import StaticsticsRow from "./StaticsticsRow.vue";
+import ServieceDetailShowcaseRow from "./ServieceDetailShowcaseRow.vue";
 
 export default {
   name: "index",
   mounted() {
     ygencyUtilits.counterUp();
   },
+  components: { StaticsticsRow, ServieceDetailShowcaseRow },
 };
 </script>

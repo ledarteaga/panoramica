@@ -7,7 +7,7 @@
           <div class="logo-outer">
             <div class="logo">
               <NuxtLink href="/">
-                <Logo style="width: 161px; height: 60px" />
+                <Logo style="width: 175px; height: 60px" />
               </NuxtLink>
             </div>
           </div>
