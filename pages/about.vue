@@ -199,110 +199,86 @@
     <!-- Headline Area end -->
 
     <!-- Team Area start -->
-    <section class="team-area pt-130 rpt-100">
+    <section class="team-area pt-70 rpt-40">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div
+              class="section-title text-center mb-55 wow fadeInUp delay-0-2s"
+            >
+              <span class="sub-title mb-20">Conocenos</span>
+              <h2>Nuestro Equipo</h2>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container-fluid">
         <div
           class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
         >
           <div class="col">
-            <div class="team-member wow fadeInUp delay-0-2s">
+            <div class="team-member member-1 wow fadeInUp delay-0-2s">
               <div class="image">
-                <img src="/assets/images/team/member1.png" alt="Team Member" />
+                <!-- <img src="/assets/images/team/member1.png" alt="Team Member" /> -->
               </div>
               <div class="content">
                 <h4>Claudia Fung</h4>
                 <span>Marketing</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
               </div>
               <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
                 <div class="social-style-two">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="team-member wow fadeInUp delay-0-3s">
+            <div class="team-member member-2 wow fadeInUp delay-0-3s">
               <div class="image">
-                <img src="/assets/images/team/member2.png" alt="Team Member" />
+                <!-- <img src="/assets/images/team/member2.png" alt="Team Member" /> -->
               </div>
               <div class="content">
                 <h4>Jorge Arteaga</h4>
                 <span>Comunicador</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
               </div>
               <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
                 <div class="social-style-two">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="team-member wow fadeInUp delay-0-4s">
+            <div class="team-member member-3 wow fadeInUp delay-0-4s">
               <div class="image">
-                <img
+                <!-- <img
                   src="/assets/images/team/member3.png"
                   class="h-100"
                   alt="Team Member"
-                />
+                /> -->
               </div>
               <div class="content">
                 <h4>Corina Montoya</h4>
                 <span>RRHH</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
               </div>
               <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
                 <div class="social-style-two">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="team-member wow fadeInUp delay-0-5s">
+            <div class="team-member member-4 wow fadeInUp delay-0-5s">
               <div class="image">
-                <img src="/assets/images/team/member4.jpeg" alt="Team Member" />
+                <!-- <img src="/assets/images/team/member4.jpeg" alt="Team Member" /> -->
               </div>
               <div class="content">
                 <h4>Rodrigo Merizalde</h4>
                 <span>Economista</span>
-                <NuxtLink class="read-more" href="team-details"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
               </div>
               <div class="btn-social">
-                <NuxtLink class="read-more" href="team-details"
-                  ><span>View Details</span> <i class="far fa-arrow-right"></i
-                ></NuxtLink>
                 <div class="social-style-two">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
               </div>
