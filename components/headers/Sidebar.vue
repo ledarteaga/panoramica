@@ -9,7 +9,7 @@
         <span class="fa fa-times"></span>
       </div>
       <div class="title">
-        <h4>Get Appointment</h4>
+        <h4>Dejanos tu mensaje</h4>
       </div>
 
       <!--Appointment Form-->
@@ -20,7 +20,7 @@
               type="text"
               name="text"
               value=""
-              placeholder="Name"
+              placeholder="Nombre"
               required
             />
           </div>
@@ -29,25 +29,17 @@
               type="email"
               name="email"
               value=""
-              placeholder="Email Address"
+              placeholder="Correo"
               required
             />
           </div>
           <div class="form-group">
-            <textarea placeholder="Message" rows="5"></textarea>
+            <textarea placeholder="Mensaje" rows="5"></textarea>
           </div>
           <div class="form-group">
-            <button type="submit" class="theme-btn">Submit now</button>
+            <button type="submit" class="theme-btn">Enviar</button>
           </div>
         </form>
-      </div>
-
-      <!--Social Icons-->
-      <div class="social-style-one">
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-pinterest-p"></i></a>
       </div>
     </div>
   </section>

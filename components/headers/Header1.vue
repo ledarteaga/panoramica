@@ -66,7 +66,8 @@
             <!-- menu sidbar -->
             <div class="menu-sidebar">
               <button @click="toggleSidebar()">
-                <img src="/assets/images/icons/toggler.svg" alt="Toggler" />
+                <h5>Contactanos</h5>
+                <!-- <img src="/assets/images/icons/toggler.svg" alt="Toggler" /> -->
               </button>
             </div>
           </div>

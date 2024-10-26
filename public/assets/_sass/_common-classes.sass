@@ -8,7 +8,7 @@
     margin: 0 auto
     overflow: hidden
     min-width: 300px
-    
+
 .container
     +res-ab(xl)
         max-width: $container
@@ -24,34 +24,34 @@
             max-width: 1290px
         &.container-1210
             max-width: 1240px
-        
+
 .container-fluid
     +res-ab(sm)
         +gapLR(padding, 25px)
     +res-ab(xxl)
         +gapLR(padding, 70px)
-      
+
 .col-small
     +res-bl(xs)
         flex: 0 0 100%
         max-width: 100%
 .row
     --bs-gutter-x: 30px
-    
+
 .no-gap
     --bs-gutter-x: 0
-    
+
 @for $i from 1 through 15
     .gap-#{10 * $i}
         +res-ab(xxl)
             --bs-gutter-x: #{10px * $i}
-        
+
 .row-cols-xl-7
     > *
         +res-ab(xl)
             width: 14.2857%
             flex: 0 0 auto
-    
+
 /** Section Title style **/
 .section-title
     margin-top: -7px
@@ -86,8 +86,7 @@
             i
                 font-weight: 400
                 -webkit-text-fill-color: $color-primary
-            
-            
+
 /* Big Text */
 .big-text
     color: white
@@ -101,7 +100,6 @@
         position: relative
         margin-top: -100px
 
-   
 /** Button style **/
 .theme-btn,
 a.theme-btn
@@ -126,7 +124,7 @@ a.theme-btn
         background: $color-primary
         border-color: $color-primary
         i
-            margin-left: 13px;
+            margin-left: 13px
             margin-right: -3px
     +res-bl(sm)
         padding: 10px 25px
@@ -184,7 +182,7 @@ a.theme-btn
     span
         font-weight: 600
         line-height: 1.5
-    
+
     +res-bl(ms)
         +size(100px)
         font-size: 14px
@@ -235,7 +233,7 @@ a.theme-btn
                 left: calc(100% - 28px)
     &.color-primary
         color: $color-primary
-      
+
 /* List style One */
 .list-style-one
     li
@@ -258,7 +256,7 @@ a.theme-btn
             border-radius: 50%
             color: $color-primary
             font-family: 'Font Awesome 5 Pro'
-        
+
 /* List style Two */
 .list-style-two
     li
@@ -270,7 +268,7 @@ a.theme-btn
                 color: $color-primary
                 text-decoration: underline
                 text-underline-position: under
-            
+
 /* List style Three */
 .list-style-three
     color: white
@@ -283,7 +281,7 @@ a.theme-btn
             margin-right: 15px
             color: $color-primary
             font-family: 'Font Awesome 5 Pro'
-        
+
 /** Social Link One **/
 .social-style-one
     flex-wrap: wrap
@@ -291,7 +289,7 @@ a.theme-btn
     +gapLR(margin, -10px)
     a
         +gapLR(margin, 10px)
-        
+
 /** Social Link Two **/
 .social-style-two
     flex-wrap: wrap
@@ -304,7 +302,7 @@ a.theme-btn
         &:hover
             color: $color-dark
             background: $color-primary
-        
+
 /** Social Link Three **/
 .social-style-three
     flex-wrap: wrap
@@ -314,7 +312,7 @@ a.theme-btn
         +gapLR(margin, 7.5px)
         &:hover
             color: $color-primary
-        
+
 /** Social Link Four **/
 .social-style-four
     flex-wrap: wrap
@@ -324,7 +322,7 @@ a.theme-btn
         +gapLR(margin, 35px)
         i
             margin-right: 10px
-        
+
 /** Tab Style One **/
 .tab-style-one
     border-bottom: 1px solid $color-border
@@ -348,7 +346,7 @@ a.theme-btn
             margin-right: 40px
             +res-bl(md)
                 margin-right: 20px
-        
+
 /*** Preloader style ** */
 .preloader
     position: fixed
@@ -405,7 +403,7 @@ a.theme-btn
             +size(7px)
             background: white
             border-radius: 50%
-        
+
 /* Rating */
 .ratting
     line-height: 1
@@ -420,8 +418,7 @@ a.theme-btn
             margin: 6px
             font-size: 18px
             color: $color-primary
-        
-    
+
 .slider-arrow
     .slick-arrow
         border: 1px solid $color-border
@@ -432,7 +429,7 @@ a.theme-btn
             color: white
             background: $color-primary
             border-color: $color-primary
-                
+
 /*** Slick Dots ***/
 .slick-dots
     flex-wrap: wrap
@@ -464,7 +461,7 @@ a.theme-btn
     border-radius: 5px
     background: $color-primary
     animation: pulse 2s infinite
-  
+
 /* Text White */
 .text-white
     *, a,
@@ -486,7 +483,7 @@ a.theme-btn
         background: white
     .hotline > i
         border-color: white
-        
+
 /* Wave Shapes */
 .wave-shapes
     position: absolute
@@ -502,7 +499,7 @@ a.theme-btn
         animation: leftRightOne 6s infinite
         &.two
             animation-delay: 3s
-        
+
 /*Project Filter*/
 .filter-btns-one
     display: flex
@@ -523,7 +520,7 @@ a.theme-btn
             color: $color-primary
             text-decoration: underline
             box-shadow: 10px 0 60px rgba(195, 195, 195, 0.5)
-            
+
 .filter-btns-two
     display: flex
     flex-wrap: wrap
@@ -547,19 +544,19 @@ a.theme-btn
 /* Position */
 .rel
     position: relative
-    
+
 @for $i from 0 through 5
     .z-#{0 + $i}
         z-index: 0 + $i
-    
+
 .overlay
     +overlay($color-secondary, 0.75)
-    
+
 /* Backgruond Size */
 .bgs-cover
     background-size: cover
     background-position: center
-    
+
 /* Color + Background */
 .bgc-black
     background-color: #0f1425
@@ -593,9 +590,8 @@ a.theme-btn
         top: 20%
         filter: blur(350px)
         animation-delay: 2.5s
-    
+
 /* Border Radius */
 @for $i from 1 through 6
     .br-#{5 * $i}
         border-radius: 5px * $i
-    

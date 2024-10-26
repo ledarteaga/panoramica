@@ -1,22 +1,12 @@
 <template>
   <NuxtLayout name="ygency">
     <!-- Page Banner Section Start -->
-    <section
-      class="page-banner pt-210 rpt-150 pb-25 rel z-1"
-      style="background-image: url(assets/images/hero/hero-two-bg.png)"
-    >
+    <section class="page-banner pt-200 rpt-100 rel z-1">
       <div class="container">
-        <div class="row">
+        <div class="row mx-0">
           <div class="col-lg-12">
-            <h1
-              class="hero-title style-two mb-100 rmb-50 wow fadeInUp delay-0-2s"
-            >
-              Marketing y Comunicaciones
-              <img
-                class="mxw-10 leaf"
-                src="/assets/images/banner/leaf.png"
-                alt="Leaf"
-              />
+            <h1 class="hero-title style-two rmb-50 wow fadeInUp delay-0-2s">
+              Marketing y <br />Comunicaciones
             </h1>
           </div>
         </div>
@@ -27,10 +17,14 @@
     <!-- Services Page About Area start -->
     <section class="service-page-about py-130 rpy-100 rel z-1">
       <div class="container">
-        <div class="row gap-90 align-items-center">
+        <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="service-about-image rmb-55 wow fadeInUp delay-0-2s">
-              <img src="/assets/images/about/about-three.jpg" alt="About" />
+              <img
+                class="d-block mx-auto"
+                src="/assets/images/about/about-three.jpg"
+                alt="About"
+              />
             </div>
           </div>
           <div class="col-xl-5 col-lg-6 mx-xl-auto">
@@ -66,19 +60,6 @@
     <!-- How We Works start -->
     <section class="how-we-works-area pb-100 rpb-70 rel z-1">
       <div class="container">
-        <!-- <div class="section-title mb-40 wow fadeInUp delay-0-2s">
-          <span class="sub-title mb-15">How We Works</span>
-          <h2>Simple Step Follow to Complete Work</h2>
-          <div class="text mt-30">
-            <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum
-            </p>
-          </div>
-        </div> -->
         <div class="row gap-90">
           <div class="col-xl-3 col-sm-6">
             <div class="work-step-item wow fadeInUp delay-0-2s">
@@ -168,35 +149,23 @@
           <span>
             <span class="marquee-item">
               <i class="fas fa-star-of-life"></i>
-              <b>Videos</b>
+              <b>TRABAJOS RECIENTES</b>
             </span>
             <span class="marquee-item">
               <i class="fas fa-star-of-life"></i>
-              <b>Fotografía</b>
+              <b>TRABAJOS RECIENTES</b>
             </span>
             <span class="marquee-item">
               <i class="fas fa-star-of-life"></i>
-              <b>Website</b>
+              <b>TRABAJOS RECIENTES</b>
             </span>
             <span class="marquee-item">
               <i class="fas fa-star-of-life"></i>
-              <b>Diseño</b>
+              <b>TRABAJOS RECIENTES</b>
             </span>
             <span class="marquee-item">
               <i class="fas fa-star-of-life"></i>
-              <b>Videos</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Fotografía</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Website</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Diseño</b>
+              <b>TRABAJOS RECIENTES</b>
             </span>
           </span>
         </div>
@@ -204,8 +173,141 @@
     </div>
     <!-- Headline Area end -->
 
+    <!-- Project Grid Area start -->
+    <section class="project-grid-area pt-130 rpt-100 pb-10 rpb-25">
+      <div class="container container-1210">
+        <div class="row gap-110">
+          <div class="col-lg-6">
+            <div class="project-item">
+              <div class="image wow fadeInUp delay-0-2s">
+                <img
+                  src="/assets/images/projects/project-grid1.jpg"
+                  alt="Project Grid"
+                />
+                <NuxtLink href="project-details" class="project-btn"
+                  ><i class="far fa-arrow-right"></i
+                ></NuxtLink>
+              </div>
+              <div class="content wow fadeInUp delay-0-2s">
+                <h2>
+                  <NuxtLink href="project-details">Melange</NuxtLink>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-item">
+              <div class="image wow fadeInUp delay-0-2s">
+                <img
+                  src="/assets/images/projects/project-grid2.jpg"
+                  alt="Project Grid"
+                />
+                <NuxtLink href="project-details" class="project-btn"
+                  ><i class="far fa-arrow-right"></i
+                ></NuxtLink>
+              </div>
+              <div class="content wow fadeInUp delay-0-2s">
+                <h2>
+                  <NuxtLink href="project-details">Corp <i>Fung</i></NuxtLink>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-item">
+              <div class="image wow fadeInUp delay-0-2s">
+                <img
+                  src="/assets/images/about/marketing-4.jpg"
+                  alt="Project Grid"
+                />
+                <NuxtLink href="project-details" class="project-btn"
+                  ><i class="far fa-arrow-right"></i
+                ></NuxtLink>
+              </div>
+              <div class="content wow fadeInUp delay-0-2s">
+                <h2>
+                  <NuxtLink href="project-details">Mad <i>Burger</i></NuxtLink>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-item">
+              <div class="image wow fadeInUp delay-0-2s">
+                <img
+                  src="/assets/images/projects/project-grid4.jpg"
+                  alt="Project Grid"
+                />
+                <NuxtLink href="project-details" class="project-btn"
+                  ><i class="far fa-arrow-right"></i
+                ></NuxtLink>
+              </div>
+              <div class="content wow fadeInUp delay-0-2s">
+                <h2>
+                  <NuxtLink href="project-details">500 <i>Grados</i></NuxtLink>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-item">
+              <div class="image wow fadeInUp delay-0-2s">
+                <img
+                  src="/assets/images/projects/project-grid5.jpg"
+                  alt="Project Grid"
+                />
+                <NuxtLink href="project-details" class="project-btn"
+                  ><i class="far fa-arrow-right"></i
+                ></NuxtLink>
+              </div>
+              <div class="content wow fadeInUp delay-0-2s">
+                <h2>
+                  <NuxtLink href="project-details">Sapiens</NuxtLink>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-item">
+              <div class="image wow fadeInUp delay-0-2s">
+                <img
+                  src="/assets/images/projects/project-grid6.jpg"
+                  alt="Project Grid"
+                />
+                <NuxtLink href="project-details" class="project-btn"
+                  ><i class="far fa-arrow-right"></i
+                ></NuxtLink>
+              </div>
+              <div class="content wow fadeInUp delay-0-2s">
+                <h2>
+                  <NuxtLink href="project-details">Mayta</NuxtLink>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-item">
+              <div class="image wow fadeInUp delay-0-2s">
+                <img src="/assets/images/about/marketing-1.png" alt="Project" />
+
+                <NuxtLink href="project-details" class="project-btn"
+                  ><i class="far fa-arrow-right"></i
+                ></NuxtLink>
+              </div>
+              <div class="content wow fadeInUp delay-0-2s">
+                <h2>
+                  <NuxtLink href="project-details">BZR</NuxtLink>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Grid Area end -->
+
     <!-- Project Details Content Area start -->
-    <section class="project-details-area pt-80 rel z-1">
+    <!-- <section class="project-details-area pt-80 rel z-1">
       <div class="container container-1290">
         <div class="row">
           <div class="col-lg-6">
@@ -242,7 +344,7 @@
 
         <hr />
       </div>
-    </section>
+    </section> -->
     <!-- Project Details Content Area End -->
   </NuxtLayout>
 </template>

@@ -4,7 +4,7 @@
     style="background-image: url(assets/images/footer/footer-bg-shape.png)"
   >
     <div class="container container-1290">
-      <div class="footer-top pt-80 pb-60">
+      <!-- <div class="footer-top pt-80 pb-60">
         <div class="row align-items-center">
           <div class="col-lg-4">
             <div class="footer-logo mb-20 wow fadeInRight delay-0-2s">
@@ -30,9 +30,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
           <div class="footer-left-content pt-80">
             <div class="lets-work mb-50 wow fadeInUp delay-0-2s">
               <img
@@ -42,14 +42,16 @@
               <span>Ponte en Contacto</span>
             </div>
             <div class="footer-contact-info wow fadeInUp delay-0-3s">
-              <a class="theme-btn style-three" href="mailto:support@gmail.com"
-                >support@gmail.com <i class="far fa-arrow-right"></i
-              ></a>
               <a
+                class="theme-btn style-three"
+                href="mailto:hola@panoramicaconsulting.com"
+                >hola@panoramicaconsulting.com <i class="far fa-arrow-right"></i
+              ></a>
+              <!-- <a
                 class="theme-btn style-three phone-number"
                 href="callto:+000(123)45688"
                 >+000 (123) 456 88 <i class="far fa-arrow-right"></i
-              ></a>
+              ></a> -->
             </div>
           </div>
         </div>
