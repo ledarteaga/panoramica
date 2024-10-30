@@ -30,7 +30,7 @@ interface _GlobalComponents {
     'SlidersTestimonial2': typeof import("../components/sliders/Testimonial2.vue")['default']
     'SlidersTestimonial3': typeof import("../components/sliders/Testimonial3.vue")['default']
     'SlidersTestimonial4': typeof import("../components/sliders/Testimonial4.vue")['default']
-    'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
+    'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
     'ClientOnly': typeof import("../node_modules/nuxt/dist/app/components/client-only")['default']
@@ -41,8 +41,8 @@ interface _GlobalComponents {
     'NuxtRouteAnnouncer': typeof import("../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']
     'NuxtImg': typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']
     'NuxtPicture': typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']
-    'Swiper': typeof import("swiper/vue")['Swiper']
-    'SwiperSlide': typeof import("swiper/vue")['SwiperSlide']
+    'Swiper': typeof import("../node_modules/swiper/swiper-vue")['Swiper']
+    'SwiperSlide': typeof import("../node_modules/swiper/swiper-vue")['SwiperSlide']
     'NuxtIcon': typeof import("../node_modules/nuxt-svgo/dist/runtime/components/nuxt-icon.vue")['default']
     'NuxtPage': typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']
     'NoScript': typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']
@@ -84,7 +84,7 @@ interface _GlobalComponents {
     'LazySlidersTestimonial2': typeof import("../components/sliders/Testimonial2.vue")['default']
     'LazySlidersTestimonial3': typeof import("../components/sliders/Testimonial3.vue")['default']
     'LazySlidersTestimonial4': typeof import("../components/sliders/Testimonial4.vue")['default']
-    'LazyNuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
+    'LazyNuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
     'LazyNuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
     'LazyClientOnly': typeof import("../node_modules/nuxt/dist/app/components/client-only")['default']
@@ -95,8 +95,8 @@ interface _GlobalComponents {
     'LazyNuxtRouteAnnouncer': typeof import("../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']
     'LazyNuxtImg': typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']
     'LazyNuxtPicture': typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']
-    'LazySwiper': typeof import("swiper/vue")['Swiper']
-    'LazySwiperSlide': typeof import("swiper/vue")['SwiperSlide']
+    'LazySwiper': typeof import("../node_modules/swiper/swiper-vue")['Swiper']
+    'LazySwiperSlide': typeof import("../node_modules/swiper/swiper-vue")['SwiperSlide']
     'LazyNuxtIcon': typeof import("../node_modules/nuxt-svgo/dist/runtime/components/nuxt-icon.vue")['default']
     'LazyNuxtPage': typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']
     'LazyNoScript': typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']
@@ -110,14 +110,6 @@ interface _GlobalComponents {
     'LazyBody': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyNuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'LazyNuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-}
-
-declare module '@vue/runtime-core' {
-  export interface GlobalComponents extends _GlobalComponents { }
-}
-
-declare module '@vue/runtime-dom' {
-  export interface GlobalComponents extends _GlobalComponents { }
 }
 
 declare module 'vue' {
@@ -152,7 +144,7 @@ export const SlidersTestimonial: typeof import("../components/sliders/Testimonia
 export const SlidersTestimonial2: typeof import("../components/sliders/Testimonial2.vue")['default']
 export const SlidersTestimonial3: typeof import("../components/sliders/Testimonial3.vue")['default']
 export const SlidersTestimonial4: typeof import("../components/sliders/Testimonial4.vue")['default']
-export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
+export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
 export const ClientOnly: typeof import("../node_modules/nuxt/dist/app/components/client-only")['default']
@@ -163,8 +155,8 @@ export const NuxtLoadingIndicator: typeof import("../node_modules/nuxt/dist/app/
 export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']
 export const NuxtImg: typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']
 export const NuxtPicture: typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']
-export const Swiper: typeof import("swiper/vue")['Swiper']
-export const SwiperSlide: typeof import("swiper/vue")['SwiperSlide']
+export const Swiper: typeof import("../node_modules/swiper/swiper-vue")['Swiper']
+export const SwiperSlide: typeof import("../node_modules/swiper/swiper-vue")['SwiperSlide']
 export const NuxtIcon: typeof import("../node_modules/nuxt-svgo/dist/runtime/components/nuxt-icon.vue")['default']
 export const NuxtPage: typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']
 export const NoScript: typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']
@@ -206,7 +198,7 @@ export const LazySlidersTestimonial: typeof import("../components/sliders/Testim
 export const LazySlidersTestimonial2: typeof import("../components/sliders/Testimonial2.vue")['default']
 export const LazySlidersTestimonial3: typeof import("../components/sliders/Testimonial3.vue")['default']
 export const LazySlidersTestimonial4: typeof import("../components/sliders/Testimonial4.vue")['default']
-export const LazyNuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome")['default']
+export const LazyNuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
 export const LazyNuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
 export const LazyClientOnly: typeof import("../node_modules/nuxt/dist/app/components/client-only")['default']
@@ -217,8 +209,8 @@ export const LazyNuxtLoadingIndicator: typeof import("../node_modules/nuxt/dist/
 export const LazyNuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']
 export const LazyNuxtImg: typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']
 export const LazyNuxtPicture: typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']
-export const LazySwiper: typeof import("swiper/vue")['Swiper']
-export const LazySwiperSlide: typeof import("swiper/vue")['SwiperSlide']
+export const LazySwiper: typeof import("../node_modules/swiper/swiper-vue")['Swiper']
+export const LazySwiperSlide: typeof import("../node_modules/swiper/swiper-vue")['SwiperSlide']
 export const LazyNuxtIcon: typeof import("../node_modules/nuxt-svgo/dist/runtime/components/nuxt-icon.vue")['default']
 export const LazyNuxtPage: typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']
 export const LazyNoScript: typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']

@@ -1,7 +1,7 @@
 <template>
   <ul class="navigation clearfix">
     <li class="dropdown">
-      <a href="#">Inicio</a>
+      <a href="/">Inicio</a>
       <!-- <ul>
         <li class="dropdown">
           <a href="#">MultiPage</a>
@@ -42,35 +42,20 @@
       </ul>
       <div v-html="dropdown"></div> -->
     </li>
-    <li><NuxtLink href="/about">Nuestro Equipo</NuxtLink></li>
-    <!-- <li class="dropdown">
-      <a href="#">pages</a>
+    <!-- <li><NuxtLink href="/aboutmarketing">Marketing</NuxtLink></li> -->
+
+    <li class="dropdown">
+      <NuxtLink href="/about-marketing">Marketing</NuxtLink>
       <ul>
-        <li><NuxtLink href="/faqs">faqs</NuxtLink></li>
-        <li class="dropdown">
-          <a href="#">Products</a>
-          <ul>
-            <li><NuxtLink href="/shop">our Products</NuxtLink></li>
-            <li>
-              <NuxtLink href="/product-details">Product Details</NuxtLink>
-            </li>
-          </ul>
-          <div v-html="dropdown"></div>
-        </li>
-        <li class="dropdown">
-          <a href="#">Team</a>
-          <ul>
-            <li><NuxtLink href="/team">Team Members</NuxtLink></li>
-            <li><NuxtLink href="/team-details">Team Details</NuxtLink></li>
-          </ul>
-          <div v-html="dropdown"></div>
-        </li>
-        <li><NuxtLink href="/contact">Contact us</NuxtLink></li>
-        <li><NuxtLink href="/pricing">Pricing Plan</NuxtLink></li>
-        <li><NuxtLink href="/404">404 error</NuxtLink></li>
+        <li><NuxtLink href="/portfolio">Portfolio</NuxtLink></li>
       </ul>
       <div v-html="dropdown"></div>
-    </li> -->
+    </li>
+
+    <li><NuxtLink href="/about-finanzas">Finanzas</NuxtLink></li>
+    <li><NuxtLink href="/about">RRHH</NuxtLink></li>
+    <li><NuxtLink href="/about">Nuestro Equipo</NuxtLink></li>
+
     <!-- <li class="dropdown">
       <a href="#">Nuestros Servicios</a>
       <ul>

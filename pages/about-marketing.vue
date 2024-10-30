@@ -57,254 +57,106 @@
     </section>
     <!-- Services Page About Area end -->
 
-    <!-- How We Works start -->
-    <section class="how-we-works-area pb-100 rpb-70 rel z-1">
+    <!-- Service Style Two start -->
+    <section class="service-two-area pt-90 rpt-45 pb-100 rpb-70">
       <div class="container">
-        <div class="row gap-90">
-          <div class="col-xl-3 col-sm-6">
-            <div class="work-step-item wow fadeInUp delay-0-2s">
-              <span class="step-number">01</span>
-              <h4 class="title">Estrategia de Marketing</h4>
-              <div class="content">
-                <p>Desarrollo de planes de marketing personalizados.</p>
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-7">
+            <div class="row">
+              <div class="col-xl-10">
+                <div class="section-title mb-30 wow fadeInRight delay-0-2s">
+                  <h2>Beneficios que transforman tu marca</h2>
+                  <div class="text pt-20">
+                    Ofrecemos un enfoque integral que abarca todos los aspectos
+                    del marketing digital.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-sm-6">
-            <div class="work-step-item wow fadeInUp delay-0-3s">
-              <span class="step-number">02</span>
-              <h4 class="title">Marketing Digital</h4>
-              <div class="content">
-                <p>Gestión de campañas de publicidad en línea ( Meta ads.)</p>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-item style-two wow fadeInLeft delay-0-2s">
+              <div class="icon">
+                <i class="fa-solid fa-users-rectangle"></i>
               </div>
+              <h5>
+                <NuxtLink href="service-details"
+                  >Conexión con tu Audiencia</NuxtLink
+                >
+              </h5>
+              <p>Generamos relaciones duraderas con tus clientes.</p>
             </div>
           </div>
-          <div class="col-xl-3 col-sm-6">
-            <div class="work-step-item wow fadeInUp delay-0-4s">
-              <span class="step-number">03</span>
-              <h4 class="title">Diseño y Desarrollo Web</h4>
-              <div class="content">
-                <p>
-                  Desarrollo de sitios web responsivos y optimizados para
-                  móviles.
-                </p>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-item style-two wow fadeInLeft delay-0-4s">
+              <div class="icon">
+                <i class="fa-solid fa-rocket"></i>
               </div>
+              <h5>
+                <NuxtLink href="service-details">Mayor Visibilidad</NuxtLink>
+              </h5>
+              <p>Llegamos a tu público objetivo de forma efectiva.</p>
             </div>
           </div>
-          <div class="col-xl-3 col-sm-6">
-            <div class="work-step-item arrow-none wow fadeInUp delay-0-5s">
-              <span class="step-number">04</span>
-              <h4 class="title">Branding y Diseño Gráfico</h4>
-              <div class="content">
-                <p>
-                  Creación de identidad de marca (logotipos, paleta de colores,
-                  tipografía, etc.)
-                </p>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-item style-two wow fadeInLeft delay-0-2s">
+              <div class="icon">
+                <i class="fa-solid fa-arrow-up-right-dots"></i>
               </div>
+              <h5>
+                <NuxtLink href="service-details">Aumento de Ventas</NuxtLink>
+              </h5>
+              <p>Impulsamos tus conversiones y generamos más ingresos.</p>
             </div>
           </div>
-          <div class="col-xl-3 col-sm-6">
-            <div class="work-step-item arrow-none wow fadeInUp delay-0-5s">
-              <span class="step-number">05</span>
-              <h4 class="title">Marketing en Redes Sociales</h4>
-              <div class="content">
-                <p>
-                  Creación y gestión de perfiles en redes
-                  sociales.(planificación de contenido, publicación, interacción
-                  con seguidores).
-                </p>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-item style-two wow fadeInLeft delay-0-4s">
+              <div class="icon">
+                <i class="fa-solid fa-hand-fist"></i>
               </div>
+              <h5>
+                <NuxtLink href="service-details"
+                  >Fortalecimiento de Marca</NuxtLink
+                >
+              </h5>
+              <p>Construimos una identidad sólida y memorable.</p>
             </div>
           </div>
-          <div class="col-xl-3 col-sm-6">
-            <div class="work-step-item arrow-none wow fadeInUp delay-0-5s">
-              <span class="step-number">06</span>
-              <h4 class="title">Marketing de Influencers</h4>
-              <div class="content">
-                <p>
-                  Identificación y colaboración con influencers relevantes para
-                  la marca.
-                </p>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-item style-two wow fadeInLeft delay-0-6s">
+              <div class="icon">
+                <i class="fa-solid fa-face-grin-stars"></i>
               </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-sm-6">
-            <div class="work-step-item arrow-none wow fadeInUp delay-0-5s">
-              <span class="step-number">07</span>
-              <h4 class="title">Marketing Experiencial y Eventos</h4>
-              <div class="content">
-                <p>Planificación y ejecución de eventos de marketing.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- How We Works end -->
-
-    <!-- Headline area start -->
-    <div class="headline-area bgc-primary pt-80 pb-65">
-      <div class="container-fluid">
-        <div class="headline-wrap marquee">
-          <span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>TRABAJOS RECIENTES</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>TRABAJOS RECIENTES</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>TRABAJOS RECIENTES</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>TRABAJOS RECIENTES</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>TRABAJOS RECIENTES</b>
-            </span>
-          </span>
-        </div>
-      </div>
-    </div>
-    <!-- Headline Area end -->
-
-    <!-- Project Grid Area start -->
-    <section class="project-grid-area pt-130 rpt-100 pb-10 rpb-25">
-      <div class="container container-1210">
-        <div class="row gap-110">
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/project-grid1.jpg"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <h2>
-                  <NuxtLink href="project-details">Melange</NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/project-grid2.jpg"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <h2>
-                  <NuxtLink href="project-details">Corp <i>Fung</i></NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/about/marketing-4.jpg"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <h2>
-                  <NuxtLink href="project-details">Mad <i>Burger</i></NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/project-grid4.jpg"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <h2>
-                  <NuxtLink href="project-details">500 <i>Grados</i></NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/project-grid5.jpg"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <h2>
-                  <NuxtLink href="project-details">Sapiens</NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/project-grid6.jpg"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <h2>
-                  <NuxtLink href="project-details">Mayta</NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img src="/assets/images/about/marketing-1.png" alt="Project" />
-
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <h2>
-                  <NuxtLink href="project-details">BZR</NuxtLink>
-                </h2>
-              </div>
+              <h5>
+                <NuxtLink href="service-details"
+                  >Mejor Experiencia de Usuario</NuxtLink
+                >
+              </h5>
+              <p>Creamos sitios web y experiencias digitales excepcionales.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Project Grid Area end -->
+    <!-- Service Style Two end -->
+
+    <section class="work-with-area pb-150 rpb-145 rel z-1">
+      <div class="container">
+        <div class="row justify-content-center pb-45 rpb-25">
+          <div class="col-xl-7 col-lg-9">
+            <div class="section-title text-center wow fadeInUp delay-0-2s">
+              <span class="sub-title mb-15">Trabaja con Nosotros</span>
+              <h2>¿Quieres Ver Más? Explora Nuestros Trabajos</h2>
+              <NuxtLink href="/portfolio" class="explore-more text-center mt-30"
+                ><i class="fas fa-arrow-right"></i>
+                <span>Ver Más</span></NuxtLink
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="big-text light-opacity">Trabajemos Juntos</span>
+    </section>
 
     <!-- Project Details Content Area start -->
     <!-- <section class="project-details-area pt-80 rel z-1">

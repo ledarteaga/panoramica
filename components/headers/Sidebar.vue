@@ -9,7 +9,7 @@
         <span class="fa fa-times"></span>
       </div>
       <div class="title">
-        <h4>Dejanos tu mensaje</h4>
+        <h4>Déjanos tu mensaje</h4>
       </div>
 
       <!--Appointment Form-->

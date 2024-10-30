@@ -23,10 +23,7 @@ export default defineNuxtConfig({
           type: "image/x-icon",
           href: "assets/images/favicon.png",
         },
-        // {
-        //   rel: "stylesheet",
-        //   href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap",
-        // },
+
         { rel: "stylesheet", href: "/assets/_css/flaticon.min.css" },
         { rel: "stylesheet", href: "/assets/_css/fontawesome-5.14.0.min.css" },
         { rel: "stylesheet", href: "/assets/_css/bootstrap.min.css" },
@@ -34,8 +31,12 @@ export default defineNuxtConfig({
         { rel: "stylesheet", href: "/assets/_css/nice-select.min.css" },
         { rel: "stylesheet", href: "/assets/_css/animate.min.css" },
         { rel: "stylesheet", href: "/assets/_css/slick.min.css" },
-        // { rel: "stylesheet", href: "/assets/css/style.css" },
-        // { rel: "stylesheet", href: "/assets/css/custom.css" },
+      ],
+      script: [
+        {
+          src: "https://kit.fontawesome.com/684b6840d3.js",
+          crossorigin: "anonymous",
+        },
       ],
     },
   },
