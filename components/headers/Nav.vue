@@ -55,6 +55,15 @@
     <li><NuxtLink href="/about-finanzas">Finanzas</NuxtLink></li>
     <li><NuxtLink href="/about">RRHH</NuxtLink></li>
     <li><NuxtLink href="/about">Nuestro Equipo</NuxtLink></li>
+    <!-- Menu Button -->
+    <li class="menu-btns">
+      <div class="menu-sidebar">
+        <button @click="toggleSidebar()">
+          <span>Contáctanos</span>
+          <!-- <img src="/assets/images/icons/toggler.svg" alt="Toggler" /> -->
+        </button>
+      </div>
+    </li>
 
     <!-- <li class="dropdown">
       <a href="#">Nuestros Servicios</a>
@@ -100,6 +109,11 @@ export default {
       dropdown:
         '<div class="dropdown-btn"><span class="far fa-plus"></span></div>',
     };
+  },
+  methods: {
+    toggleSidebar() {
+      document.querySelector("body").classList.add("side-content-visible");
+    },
   },
 };
 </script>

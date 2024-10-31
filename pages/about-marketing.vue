@@ -15,7 +15,7 @@
     <!-- Page Banner Section End -->
 
     <!-- Services Page About Area start -->
-    <section class="service-page-about py-130 rpy-100 rel z-1">
+    <section class="service-page-about py-130 rpy-80 rel z-1">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">

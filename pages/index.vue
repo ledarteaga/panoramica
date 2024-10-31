@@ -31,9 +31,9 @@
           </div>
         </div>
       </div>
-      <div class="hero-bg">
+      <!-- <div class="hero-bg">
         <img src="/assets/images/hero/hero-bg.png" alt="lines" />
-      </div>
+      </div> -->
     </section>
     <!-- Hero Section End -->
 
@@ -150,107 +150,15 @@
     </section>
     <!-- Que Hacemos end -->
 
-    <!-- Marcas start -->
-    <section class="service-three-area pt-130 rpt-40 rel z-1">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div
-              class="section-title text-center mb-60 wow fadeInUp delay-0-2s"
-            >
-              <span class="sub-title mb-20">Nuestros Clientes</span>
-              <h2>Marcas que confiaron en nosotros</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-10 col-xl-11 px-0">
-            <div class="client-logo-wrap gap-4 gap-xl-5">
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/project-timeline1.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/project-timeline2.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/project-timeline3.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/sangucheria-22.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <!-- <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/tequenos.png"
-                  alt="Project TimeLine Image"
-                />
-              </span> -->
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/aval-herrera.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/Rodizio Scheveningen Logo.png  "
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/Logo MB blanco.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/LOGO 500 GRADOS blanco.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/SAPIENS_logo blanco.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/LOGO CALLAO_blanco.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/Santos logo bruin_zwart.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-              <span class="client-logo-item" href="contact">
-                <img
-                  src="/assets/images/projects/mayta.png"
-                  alt="Project TimeLine Image"
-                />
-              </span>
-            </div>
-          </div>
+    <!-- Headline area start -->
+    <div class="headline-area pt-130 rpt-85 rpb-20 rel z-1">
+      <div class="container-fluid">
+        <div class="headline-text marquee">
+          <span>Marketing <span>Finanzas</span> RRHH</span>
         </div>
       </div>
-    </section>
-    <!-- Marcas Three end -->
+    </div>
+    <!-- Headline Area end -->
 
     <!-- Quienes Somoms start -->
     <section class="team-area pt-130 rpt-40">
@@ -343,15 +251,107 @@
     </section>
     <!-- Quienes Somoms end -->
 
-    <!-- Headline area start -->
-    <div class="headline-area pt-130 rpt-85 rel z-1">
-      <div class="container-fluid">
-        <div class="headline-text marquee">
-          <span>Marketing <span>Finanzas</span> RRHH</span>
+    <!-- Marcas start -->
+    <section class="service-three-area pt-130 rpt-40 rel z-1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div
+              class="section-title text-center mb-60 wow fadeInUp delay-0-2s"
+            >
+              <span class="sub-title mb-20">Nuestros Clientes</span>
+              <h2>Marcas que confiaron en nosotros</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-10 col-xl-11 px-0">
+            <div class="client-logo-wrap gap-xl-3 ml-5 pl-5">
+              <template v-for="_ of 3">
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/project-timeline1.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/project-timeline2.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/project-timeline3.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/sangucheria-22.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/aval-herrera.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/Rodizio Scheveningen Logo.png  "
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/Logo MB blanco.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/LOGO 500 GRADOS blanco.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+              </template>
+            </div>
+            <div class="client-logo-wrap gap-xl-4">
+              <template v-for="_ of 3">
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/SAPIENS_logo blanco.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/LOGO CALLAO_blanco.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/Santos logo bruin_zwart.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+                <span class="client-logo-item" href="contact">
+                  <img
+                    src="/assets/images/projects/mayta.png"
+                    alt="Project TimeLine Image"
+                  />
+                </span>
+              </template>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Headline Area end -->
+    </section>
+    <!-- Marcas Three end -->
   </NuxtLayout>
 </template>
 

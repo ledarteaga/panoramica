@@ -52,10 +52,15 @@
             width: 14.2857%
             flex: 0 0 auto
 
+.content
+    +res-bl(sm)
+        text-align: center
 /** Section Title style **/
 .section-title
     margin-top: -7px
     position: relative
+    +res-bl(sm)
+        text-align: center
     .sub-title
         font-size: 18px
         font-weight: 500
@@ -73,7 +78,7 @@
         +res-bl(md)
             font-size: 40px
         +res-bl(sm)
-            font-size: 35px
+            font-size: 30px
         +res-bl(xs)
             font-size: 33px
         i
@@ -142,6 +147,8 @@ a.theme-btn
         text-transform: lowercase
         +res-ab(lg)
             padding: 18px 50px
+        +res-bl(sm)
+            font-size: 16px
 
 /* Details Btn */
 .details-btn

@@ -248,8 +248,14 @@
 /* Menu Sidebar */
 .menu-sidebar
     display: flex
+    
     +res-bl(ms)
         margin-left: 25px
+    +res-bl(sm)
+        margin-left: 0
+        margin-top: 8px
+        margin-bottom: 8px
+        
     button
         cursor: pointer
         background-color: $color-primary
@@ -257,10 +263,11 @@
         // +circle($color-primary, 50px)
         img
             margin-top: -4px
-        h5
+        span
             margin: 0
             padding: 5px 10px
             line-height: 25px
+            color: white
 
 /** hidden-sidebar *
 .hidden-bar
@@ -268,7 +275,6 @@
     right: -350px
     top: 0px
     opacity: 0
-    width: 550px
     height: 100%
     z-index: 99999
     overflow-y: auto
@@ -276,8 +282,13 @@
     background-color: #222222
     border-left: 1px solid #231b26
     transition: all 0.5s ease
-    +res-bl(xs)
-        width: 300px
+
+    +res-bl(lg)
+        width: 550px
+    
+    +res-bl(sm)
+        width: 100%
+        
     .social-style-one
         a
             +size(40px)

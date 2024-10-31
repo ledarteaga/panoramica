@@ -17,7 +17,7 @@
         border-radius: 50%
         margin-right: 20px
         +res-bl(sm)
-            +size(50px)
+            +size(30px)
     span
         color: white
         font-size: 85px
@@ -26,9 +26,9 @@
         +res-bl(xl)
             font-size: 65px
         +res-bl(sm)
-            font-size: 50px
+            font-size: 30px
         +res-bl(xs)
-            font-size: 40px
+            font-size: 30px
     
 .footer-contact-info
     .theme-btn.style-three
@@ -76,6 +76,9 @@
     border-left: 1px solid $color-border
     +res-bl(xxl)
         border: none
+    +res-bl(sm)
+        text-align: center
+        font-size: calc($base-size - 2px)
     p
         margin-bottom: 5px
     a

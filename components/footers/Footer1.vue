@@ -33,12 +33,9 @@
       </div> -->
       <div class="row">
         <div class="col-lg-10">
-          <div class="footer-left-content pt-80">
-            <div class="lets-work mb-50 wow fadeInUp delay-0-2s">
-              <img
-                src="/assets/images/logos/icon-logo.png"
-                alt="Let's Work Man"
-              />
+          <div class="footer-left-content pt-80 rpt-50">
+            <div class="lets-work mb-50 rmb-20 wow fadeInUp delay-0-2s">
+              <img src="/assets/images/logos/icon-logo.png" alt="Logo Footer" />
               <span>Ponte en Contacto</span>
             </div>
             <div class="footer-contact-info wow fadeInUp delay-0-3s">

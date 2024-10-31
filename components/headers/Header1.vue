@@ -18,11 +18,7 @@
               <div class="navbar-header py-10">
                 <div class="mobile-logo">
                   <NuxtLink href="/">
-                    <img
-                      src="/assets/images/logos/logo.svg"
-                      alt="Logo"
-                      title="Logo"
-                    />
+                    <Logo style="width: 130px; height: 60px" />
                   </NuxtLink>
                 </div>
 
@@ -60,17 +56,6 @@
 
           <!-- Nav Search -->
           <!-- <Search /> -->
-
-          <!-- Menu Button -->
-          <div class="menu-btns">
-            <!-- menu sidbar -->
-            <div class="menu-sidebar">
-              <button @click="toggleSidebar()">
-                <h5>Contáctanos</h5>
-                <!-- <img src="/assets/images/icons/toggler.svg" alt="Toggler" /> -->
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </div>
