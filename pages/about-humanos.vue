@@ -8,7 +8,7 @@
             <div class="about-content mb-35 wow fadeInUp delay-0-2s">
               <div class="section-title mb-40">
                 <span class="sub-title mb-15">¿Qué Hacemos?</span>
-                <h2>Soluciones a medida para tu negocio</h2>
+                <h2>Tu socio estratégico en gestión humana</h2>
               </div>
             </div>
           </div>
@@ -16,30 +16,31 @@
             <div class="row">
               <div class="content">
                 <p>
-                  Somos un equipo dedicado a ayudarte a alcanzar tus metas
-                  financieras. A través de un análisis detallado de tu situación
-                  actual y tus objetivos a largo plazo, desarrollamos
-                  estrategias personalizadas para optimizar tus finanzas y
-                  asegurar tu futuro financiero.
+                  En PANORÁMICA CONSULTING tenemos soluciones integrales en
+                  gestión humana y empresarial para negocios que buscan
+                  organizar su información administrativa. Optimizamos tus
+                  procesos, mejoramos la gestión del talento y potenciamos tus
+                  estrategias, permitiendo que te enfoques en lo que más
+                  importa: el crecimiento de tu negocio.
                 </p>
                 <ul class="list-style-three pt-15 pb-25">
-                  <li>Planificación Financiera</li>
-                  <li>Gestión de Deudas</li>
-                  <li>Análisis Financiero</li>
-                  <li>Educación Financiera</li>
+                  <li>Gestión de compensaciones y beneficios</li>
+                  <li>Reclutamiento y selección</li>
+                  <li>Diseño de Estructura Salarial</li>
+                  <li>Manuales laborales y contratos</li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-lg-10">
             <div class="image pt-30 wow fadeInUp delay-0-2s">
-              <img src="/assets/images/services/finanzas-bg.jpg" alt="About" />
+              <img src="/assets/images/services/humano-bg.jpg" alt="About" />
             </div>
           </div>
         </div>
       </div>
 
-      <span class="big-text">Finanzas</span>
+      <span class="big-text">Gestión Humana</span>
     </section>
     <!-- Services Page About Area end -->
 
@@ -64,24 +65,24 @@
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="service-item style-two wow fadeInLeft delay-0-2s">
               <div class="icon">
-                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <i class="fa-solid fa-calculator"></i>
               </div>
-              <h5>Tranquilidad Financiera</h5>
+              <h5>Gestión de Compensaciones y Beneficios Sin Estrés</h5>
               <p>
-                Olvídate del estrés financiero y disfruta de la tranquilidad de
-                saber que tus finanzas están en buenas manos.
+                Gestionamos de forma eficiente y precisa todas las
+                compensaciones de tu equipo.
               </p>
             </div>
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="service-item style-two wow fadeInLeft delay-0-4s">
               <div class="icon">
-                <i class="fa-solid fa-piggy-bank"></i>
+                <i class="fa-solid fa-filter-circle-dollar"></i>
               </div>
-              <h5>Mayor capacidad de ahorro</h5>
+              <h5>Optimización de Costos Laborales</h5>
               <p>
-                Aprende a ahorrar de manera efectiva y a alcanzar tus metas
-                financieras más rápido.
+                Te ayudamos a identificar oportunidades de ahorro y a maximizar
+                la inversión en tu capital humano.
               </p>
             </div>
           </div>
@@ -90,22 +91,22 @@
               <div class="icon">
                 <i class="fa-solid fa-brain"></i>
               </div>
-              <h5>Toma de decisiones informadas</h5>
+              <h5>Análisis y Desarrollo de Talento</h5>
               <p>
-                Adquiere los conocimientos necesarios para tomar decisiones
-                financieras inteligentes y evitar errores costosos.
+                Toma decisiones basadas en datos para desarrollar y retener a
+                tus mejores talentos.
               </p>
             </div>
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="service-item style-two wow fadeInLeft delay-0-4s">
               <div class="icon">
-                <i class="fa-solid fa-money-bill-trend-up"></i>
+                <i class="fa-solid fa-user-check"></i>
               </div>
-              <h5>Crecimiento económico</h5>
+              <h5>Reclutamiento y Selección de Talento Clave</h5>
               <p>
-                Impulsa tu crecimiento económico a través de estrategias de
-                inversión personalizadas.
+                Atraemos y seleccionamos a los mejores candidatos para cubrir
+                tus vacantes estratégicas.
               </p>
             </div>
           </div>
@@ -119,58 +120,20 @@
       <div class="container-fluid">
         <div class="headline-wrap marquee">
           <span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Planificación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Educación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Gestión</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Planificación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Educación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Gestión</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Planificación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Educación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Gestión</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Gestión</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Planificación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Educación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Gestión</b>
-            </span>
+            <template v-for="_ of 5">
+              <span class="marquee-item">
+                <i class="fas fa-star-of-life"></i>
+                <b>Planificación</b>
+              </span>
+              <span class="marquee-item">
+                <i class="fas fa-star-of-life"></i>
+                <b>Educación</b>
+              </span>
+              <span class="marquee-item">
+                <i class="fas fa-star-of-life"></i>
+                <b>Gestión</b>
+              </span>
+            </template>
           </span>
         </div>
       </div>
@@ -200,7 +163,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseOne"
                     >
-                      ¿Qué es un plan financiero?
+                      ¿Qué incluye su servicio de gestión de compensaciones?
                     </button>
                   </h5>
                   <div
@@ -210,10 +173,8 @@
                   >
                     <div class="accordion-body">
                       <p>
-                        Un plan financiero es un documento personalizado que
-                        detalla tus objetivos financieros, tu situación actual y
-                        las estrategias que implementarás para alcanzar tus
-                        metas.
+                        Nuestro servicio incluye cálculo de salarios, gestión de
+                        beneficios sociales, declaración de impuestos, etc.
                       </p>
                     </div>
                   </div>
@@ -225,7 +186,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseTwo"
                     >
-                      ¿Cómo puedo reducir mis deudas?
+                      ¿Qué tipo de perfiles pueden reclutar?
                     </button>
                   </h5>
                   <div
@@ -235,9 +196,8 @@
                   >
                     <div class="accordion-body">
                       <p>
-                        Existen varias estrategias para reducir tus deudas, como
-                        consolidar tus deudas, negociar con tus acreedores y
-                        crear un presupuesto.
+                        Reclutamos perfiles de todos los niveles, desde
+                        operarios hasta ejecutivos, en diversos sectores.
                       </p>
                     </div>
                   </div>
@@ -249,7 +209,8 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseThree"
                     >
-                      ¿Cuáles son los beneficios de la educación financiera?
+                      ¿Qué beneficios tiene realizar un análisis de clima
+                      laboral?
                     </button>
                   </h5>
                   <div
@@ -259,10 +220,9 @@
                   >
                     <div class="accordion-body">
                       <p>
-                        La educación financiera te permite tomar decisiones
-                        financieras informadas, ahorrar dinero, invertir de
-                        manera inteligente y alcanzar tus metas financieras a
-                        largo plazo.
+                        Permite identificar las fortalezas y debilidades de la
+                        cultura organizacional, mejorar la satisfacción de los
+                        empleados y aumentar la productividad.
                       </p>
                     </div>
                   </div>

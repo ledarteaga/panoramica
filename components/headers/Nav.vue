@@ -53,7 +53,7 @@
     </li>
 
     <li><NuxtLink href="/about-finanzas">Finanzas</NuxtLink></li>
-    <li><NuxtLink href="/about">RRHH</NuxtLink></li>
+    <li><NuxtLink href="/about-humanos">RRHH</NuxtLink></li>
     <li><NuxtLink href="/about">Nuestro Equipo</NuxtLink></li>
     <!-- Menu Button -->
     <li class="menu-btns">

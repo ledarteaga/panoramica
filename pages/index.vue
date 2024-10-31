@@ -18,7 +18,7 @@
       </div>
       <div class="container-fluid mt-15">
         <div class="hero-bottom-image">
-          <img src="/assets/images/hero/office-bg.webp" alt="Hero" />
+          <img src="/assets/images/hero/index-bg.jpg" alt="Hero" />
           <div class="hero-social">
             <a href="#"
               ><i class="fab fa-facebook-f"></i> <span>Facebook</span></a
@@ -49,11 +49,11 @@
               />
             </div>
           </div> -->
-          <div class="col-xl-7 col-lg-9">
+          <div class="col-xl-8 col-lg-9">
             <div class="about-content wow fadeInUp delay-0-4s">
               <div class="section-title mb-40">
                 <span class="sub-title mb-15">Quienes Somos</span>
-                <h2>Ayudamos a marcas a alcanzar su máximo potencial.</h2>
+                <h2>Ayudamos marcas a alcanzar su máximo potencial</h2>
               </div>
               <div class="content">
                 <p>
@@ -74,7 +74,7 @@
     <section class="what-we-do-area pt-130 rpt-80 rel z-1">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-xl-5 col-lg-8">
+          <div class="col-xl-6 col-lg-8">
             <div class="what-we-do-content mb-55">
               <div class="section-title mb-60 wow fadeInUp delay-0-2s">
                 <span class="sub-title mb-15 text-capitalize"
@@ -89,12 +89,9 @@
                 <div class="content">
                   <h5>Marketing y Comunicaciones</h5>
                   <p>
-                    El motor estratégico que impulsa un negocio, conectando tu
-                    marca con las personas correctas en el momento adecuado. En
-                    Panorámica Consulting usamos el mundo digital para crear
-                    esta conexión, utilizando herramientas que maximizan el
-                    alcance y potencian tus ventas para un crecimiento
-                    sostenible.
+                    En Panorámica Consulting usamos el mundo digital para
+                    conectar tu marca con las personas correctas en el momento
+                    adecuado.
                   </p>
                   <NuxtLink class="read-more style-two" href="about-marketing"
                     ><span>Ver Más</span> <i class="far fa-arrow-right"></i
@@ -108,12 +105,11 @@
                 <div class="content">
                   <h5>Gestión Humana, Empresarial y Administrativa</h5>
                   <p>
-                    Una consultora de recursos humanos brinda una variedad de
-                    soluciones enfocadas en ayudar a las empresas a gestionar y
+                    Soluciones enfocadas en ayudar a las empresas a gestionar y
                     potenciar su talento, optimizando la gestión de personal y
                     mejorando sus estrategias y procesos.
                   </p>
-                  <NuxtLink class="read-more style-two" href="service-details"
+                  <NuxtLink class="read-more style-two" href="about-humanos"
                     ><span>Ver Más</span> <i class="far fa-arrow-right"></i
                   ></NuxtLink>
                 </div>
@@ -125,10 +121,9 @@
                 <div class="content">
                   <h5>Soluciones Financieras</h5>
                   <p>
-                    Ordenamos y transformamos tus finanzas en oportunidades de
-                    crecimiento. Con planificación estratégica, optimizamos tus
-                    recursos y ayudamos a tomar mejores decisiones para
-                    garantizar un futuro sólido a tu negocio.
+                    Con planificación estratégica, optimizamos tus recursos y
+                    ayudamos a tomar mejores decisiones para garantizar un
+                    futuro sólido a tu negocio.
                   </p>
                   <NuxtLink class="read-more style-two" href="about-finanzas"
                     ><span>Ver Más</span> <i class="far fa-arrow-right"></i
@@ -137,7 +132,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-6">
+          <div class="col-xl-5">
             <div class="what-we-do-image mb-55 wow fadeInRight delay-0-2s">
               <!-- <img
                 src="/assets/images/about/work-with-us.jpg"
@@ -252,7 +247,7 @@
     <!-- Quienes Somoms end -->
 
     <!-- Marcas start -->
-    <section class="service-three-area pt-130 rpt-40 rel z-1">
+    <section class="service-three-area pt-130 pb-100 rpt-40 rel z-1">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-7">

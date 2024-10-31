@@ -31,9 +31,7 @@
             <div class="about-content wow fadeInUp delay-0-4s">
               <div class="section-title mb-40">
                 <span class="sub-title mb-15">Que Hacemos</span>
-                <h2>
-                  Somos especializados en la creación de contenidos digitales
-                </h2>
+                <h2>especialistas en la creación de contenidos digitales</h2>
               </div>
               <div class="content">
                 <p>
