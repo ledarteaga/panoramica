@@ -11,7 +11,7 @@
             z-index: 1
             transition: 0.35s linear
             mix-blend-mode: multiply
-            transform: scale3d(.5, 1, .5)
+            //transform: scale3d(.5, 1, .5)
         img
             width: 100%
         .project-btn
@@ -29,7 +29,7 @@
             i
                 transform: rotate(-45deg)
     .content
-        padding: 30px 50px 0
+        padding: 30px 0 0
         +res-bl(xl)
             +gapLR(padding, 30px)
         +res-bl(xs)
@@ -206,6 +206,9 @@
                     opacity: 1
                     transition-delay: 0.25s
         
+
+    h2
+        text-transform: uppercase
 .gallery-five-active
     +gapLR(margin, -15px)
     .project-item

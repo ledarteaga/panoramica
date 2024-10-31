@@ -34,7 +34,7 @@
           </div>
           <div class="col-lg-10">
             <div class="image pt-30 wow fadeInUp delay-0-2s">
-              <img src="/assets/images/services/humano-bg.jpg" alt="About" />
+              <img src="/assets/images/services/humano-bg.webp" alt="About" />
             </div>
           </div>
         </div>

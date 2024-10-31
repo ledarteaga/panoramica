@@ -10,15 +10,13 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s">
-              <!-- <img src="/assets/images/hero/hero-right.png" alt="Hero" /> -->
-            </div>
+            <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s"></div>
           </div>
         </div>
       </div>
       <div class="container-fluid mt-15">
         <div class="hero-bottom-image">
-          <img src="/assets/images/hero/index-bg.jpg" alt="Hero" />
+          <img src="/assets/images/hero/index-bg.webp" alt="Hero" />
           <div class="hero-social">
             <a href="#"
               ><i class="fab fa-facebook-f"></i> <span>Facebook</span></a
@@ -133,12 +131,9 @@
             </div>
           </div>
           <div class="col-xl-5">
-            <div class="what-we-do-image mb-55 wow fadeInRight delay-0-2s">
-              <!-- <img
-                src="/assets/images/about/work-with-us.jpg"
-                alt="Que Hacemos"
-              /> -->
-            </div>
+            <div
+              class="what-we-do-image mb-55 wow fadeInRight delay-0-2s"
+            ></div>
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@
           </div>
           <div class="col-lg-10">
             <div class="image pt-30 wow fadeInUp delay-0-2s">
-              <img src="/assets/images/services/finanzas-bg.jpg" alt="About" />
+              <img src="/assets/images/services/finanzas-bg.webp" alt="About" />
             </div>
           </div>
         </div>
