@@ -31,6 +31,7 @@ export default defineNuxtConfig({
         { rel: "stylesheet", href: "/assets/_css/nice-select.min.css" },
         { rel: "stylesheet", href: "/assets/_css/animate.min.css" },
         { rel: "stylesheet", href: "/assets/_css/slick.min.css" },
+        { rel: "stylesheet", href: "/assets/_css/custom.css" },
       ],
       script: [
         {

@@ -1,7 +1,7 @@
 <template>
   <ul class="navigation clearfix">
     <li class="dropdown">
-      <a href="/">Inicio</a>
+      <NuxtLink href="/">Inicio</NuxtLink>
       <!-- <ul>
         <li class="dropdown">
           <a href="#">MultiPage</a>
@@ -53,14 +53,13 @@
     </li>
 
     <li><NuxtLink href="/about-finanzas">Finanzas</NuxtLink></li>
-    <li><NuxtLink href="/about-humanos">RRHH</NuxtLink></li>
+    <li><NuxtLink href="/about-humanos">Gestión</NuxtLink></li>
     <li><NuxtLink href="/nosotros">Nuestro Equipo</NuxtLink></li>
     <!-- Menu Button -->
     <li class="menu-btns">
       <div class="menu-sidebar">
         <button @click="toggleSidebar()">
           <span>Contáctanos</span>
-          <!-- <img src="/assets/images/icons/toggler.svg" alt="Toggler" /> -->
         </button>
       </div>
     </li>

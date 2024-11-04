@@ -17,9 +17,9 @@
                 <h2>We Have Lot’s Experience and Professionals</h2>
               </div>
               <p>
-                Similique sunin culpa qui officia deserunt mollitia animi est
-                laborum et dolorum fuga. Et harum quidem rerum facilis esty
-                expedita distinctioam nobis est eligendi optio cumquey
+                Nuestro staff está compuesto por profesionales con amplia
+                trayectoria en sus diferentes divisiones, ayudando a
+                emprendedores a alcanzar sus metas.
               </p>
             </div>
           </div>

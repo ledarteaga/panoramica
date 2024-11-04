@@ -54,8 +54,8 @@
                   <span class="sub-title mb-15">¿Qué Ofrecemos?</span>
                   <h2>Transforma tus finanzas</h2>
                   <div class="text pt-20">
-                    Descubre cómo nuestras soluciones pueden mejorar tu vida
-                    financiera
+                    Descubre como nuestras propuestas de solución pueden mejorar
+                    tu estrategia financiera
                   </div>
                 </div>
               </div>
@@ -68,8 +68,8 @@
               </div>
               <h5>Tranquilidad Financiera</h5>
               <p>
-                Olvídate del estrés financiero y disfruta de la tranquilidad de
-                saber que tus finanzas están en buenas manos.
+                Asegura la liquidez de la empresa para la atención de proyectos
+                de innovación, crecimiento y expansión.
               </p>
             </div>
           </div>
@@ -78,10 +78,10 @@
               <div class="icon">
                 <i class="fa-solid fa-piggy-bank"></i>
               </div>
-              <h5>Mayor capacidad de ahorro</h5>
+              <h5>Flujo de caja saludable</h5>
               <p>
-                Aprende a ahorrar de manera efectiva y a alcanzar tus metas
-                financieras más rápido.
+                Mantener un flujo de caja saludable, permite a tu empresa cubrir
+                sus gastos y aprovechar oportunidades de negocios e inversión.
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@
               <div class="icon">
                 <i class="fa-solid fa-brain"></i>
               </div>
-              <h5>Toma de decisiones informadas</h5>
+              <h5>Mejora la toma de decisiones</h5>
               <p>
                 Adquiere los conocimientos necesarios para tomar decisiones
                 financieras inteligentes y evitar errores costosos.
@@ -294,11 +294,13 @@
           <div class="col-xl-7 col-lg-9">
             <div class="section-title text-center wow fadeInUp delay-0-2s">
               <span class="sub-title mb-15">Trabaja con Nosotros</span>
-              <h2>¿Quieres Ver Más? Explora Nuestros Trabajos</h2>
-              <NuxtLink href="/portfolio" class="explore-more text-center mt-30"
-                ><i class="fas fa-arrow-right"></i>
-                <span>Ver Más</span></NuxtLink
+              <h2>Escribenos tu problema y te enviamos una cotización</h2>
+              <NuxtLink
+                @click="toggleSidebar"
+                class="explore-more text-center mt-30"
               >
+                <i class="fas fa-arrow-right"></i> <span>Ver Más</span>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -309,8 +311,8 @@
   </NuxtLayout>
 </template>
 
-<script>
-export default {
-  name: "service-details2",
+<script setup lang="ts">
+const toggleSidebar = () => {
+  document.querySelector("body")?.classList.add("side-content-visible");
 };
 </script>

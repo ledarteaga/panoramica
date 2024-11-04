@@ -16,18 +16,20 @@
             <div class="row">
               <div class="content">
                 <p>
-                  En PANORÁMICA CONSULTING tenemos soluciones integrales en
-                  gestión humana y empresarial para negocios que buscan
-                  organizar su información administrativa. Optimizamos tus
-                  procesos, mejoramos la gestión del talento y potenciamos tus
-                  estrategias, permitiendo que te enfoques en lo que más
-                  importa: el crecimiento de tu negocio.
+                  Tenemos soluciones integrales en gestión humana y empresarial
+                  para negocios que buscan organizar su información
+                  administrativa. Optimizamos tus procesos, mejoramos la gestión
+                  del talento y potenciamos tus estrategias, permitiendo que te
+                  enfoques en lo que más importa: el crecimiento de tu negocio.
                 </p>
                 <ul class="list-style-three pt-15 pb-25">
                   <li>Gestión de compensaciones y beneficios</li>
                   <li>Reclutamiento y selección</li>
                   <li>Diseño de Estructura Salarial</li>
                   <li>Manuales laborales y contratos</li>
+                  <li>Formalización empresarial</li>
+                  <li>Contratos Comerciales</li>
+                  <li>Gestión Tributaria</li>
                 </ul>
               </div>
             </div>
@@ -53,10 +55,10 @@
               <div class="col-xl-10">
                 <div class="section-title mb-30 wow fadeInRight delay-0-2s">
                   <span class="sub-title mb-15">¿Qué Ofrecemos?</span>
-                  <h2>Transforma tus finanzas</h2>
+                  <h2>Eficiencia organizacional y gestión del talento</h2>
                   <div class="text pt-20">
-                    Descubre cómo nuestras soluciones pueden mejorar tu vida
-                    financiera
+                    Organizamos empresas optimizando la administración y la
+                    gestión del recurso humano.
                   </div>
                 </div>
               </div>
@@ -67,10 +69,10 @@
               <div class="icon">
                 <i class="fa-solid fa-calculator"></i>
               </div>
-              <h5>Gestión de Compensaciones y Beneficios Sin Estrés</h5>
+              <h5>Gestión de Compensaciones y Beneficios</h5>
               <p>
-                Gestionamos de forma eficiente y precisa todas las
-                compensaciones de tu equipo.
+                Elaboramos de forma eficiente y de acuerdo con la ley todas las
+                nóminas de tu equipo.
               </p>
             </div>
           </div>
@@ -103,10 +105,34 @@
               <div class="icon">
                 <i class="fa-solid fa-user-check"></i>
               </div>
-              <h5>Reclutamiento y Selección de Talento Clave</h5>
+              <h5>Reclutamiento y Selección de Talento</h5>
               <p>
                 Atraemos y seleccionamos a los mejores candidatos para cubrir
                 tus vacantes estratégicas.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-item style-two wow fadeInLeft delay-0-4s">
+              <div class="icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <h5>Formalización Empresarial</h5>
+              <p>
+                Asistencia técnica en negocios, manuales de organización y
+                registro de marca.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-item style-two wow fadeInLeft delay-0-4s">
+              <div class="icon">
+                <i class="fa-solid fa-scale-balanced"></i>
+              </div>
+              <h5>Gestión Tributaria</h5>
+              <p>
+                Cumplimiento de obligaciones con SUNAT, SUNAFIL, Ministerio de
+                Trabajo, AFP y otros.
               </p>
             </div>
           </div>
@@ -163,7 +189,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseOne"
                     >
-                      ¿Qué incluye su servicio de gestión de compensaciones?
+                      ¿Como fomalizo mi empresa?
                     </button>
                   </h5>
                   <div
@@ -173,8 +199,11 @@
                   >
                     <div class="accordion-body">
                       <p>
-                        Nuestro servicio incluye cálculo de salarios, gestión de
-                        beneficios sociales, declaración de impuestos, etc.
+                        Nuestra gestión inicia desde el registro notarial de la
+                        empresa, emisión del RUC, elecció́n del régimen
+                        tributario e inscripción en todas las entidades que te
+                        regulan. Que sentarán las bases sólidas para una exitosa
+                        salud empresarial.
                       </p>
                     </div>
                   </div>
@@ -186,7 +215,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseTwo"
                     >
-                      ¿Qué tipo de perfiles pueden reclutar?
+                      ¿Que incluye el servicio de gestión de compensaciones?
                     </button>
                   </h5>
                   <div
@@ -196,8 +225,8 @@
                   >
                     <div class="accordion-body">
                       <p>
-                        Reclutamos perfiles de todos los niveles, desde
-                        operarios hasta ejecutivos, en diversos sectores.
+                        Nuestro servicio incluye calculo de nóminas, gestión de
+                        beneficios sociales, declaración de impuestos, etc.
                       </p>
                     </div>
                   </div>
@@ -209,7 +238,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseThree"
                     >
-                      ¿Qué beneficios tiene realizar un análisis de clima
+                      ¿Que beneficios tiene realizas un análisis de clima
                       laboral?
                     </button>
                   </h5>
@@ -220,9 +249,9 @@
                   >
                     <div class="accordion-body">
                       <p>
-                        Permite identificar las fortalezas y debilidades de la
-                        cultura organizacional, mejorar la satisfacción de los
-                        empleados y aumentar la productividad.
+                        Permite identificar las fortalezas y debilidades de tu
+                        equipo, potenciar sus habilidades y aumentar su
+                        productividad.
                       </p>
                     </div>
                   </div>
@@ -254,10 +283,12 @@
           <div class="col-xl-7 col-lg-9">
             <div class="section-title text-center wow fadeInUp delay-0-2s">
               <span class="sub-title mb-15">Trabaja con Nosotros</span>
-              <h2>¿Quieres Ver Más? Explora Nuestros Trabajos</h2>
-              <NuxtLink href="/portfolio" class="explore-more text-center mt-30"
+              <h2>¿Tienes algún caso particular?</h2>
+              <NuxtLink
+                @click="toggleSidebar"
+                class="explore-more text-center mt-30"
                 ><i class="fas fa-arrow-right"></i>
-                <span>Ver Más</span></NuxtLink
+                <span>Ház una pregunta</span></NuxtLink
               >
             </div>
           </div>
@@ -269,8 +300,8 @@
   </NuxtLayout>
 </template>
 
-<script>
-export default {
-  name: "service-details2",
+<script setup lang="ts">
+const toggleSidebar = () => {
+  document.querySelector("body")?.classList.add("side-content-visible");
 };
 </script>

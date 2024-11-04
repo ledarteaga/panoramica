@@ -12,7 +12,7 @@
                   src="/assets/images/projects/portfolio-1.png"
                   alt="Project Grid"
                 />
-                <NuxtLink href="project-details" class="project-btn"
+                <NuxtLink href="melange" class="project-btn"
                   ><i class="far fa-arrow-right"></i
                 ></NuxtLink>
               </div>
@@ -33,7 +33,7 @@
                   src="/assets/images/projects/portfolio-2.png"
                   alt="Project Grid"
                 />
-                <NuxtLink href="project-details" class="project-btn"
+                <NuxtLink href="corp-fung" class="project-btn"
                   ><i class="far fa-arrow-right"></i
                 ></NuxtLink>
               </div>
@@ -44,113 +44,6 @@
                 >
                 <h2>
                   <NuxtLink href="project-details">Corp <i>Fung</i></NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/portfolio-3.png"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <NuxtLink href="projects" class="category"
-                  >Art Direction | Fotografía | Social Media</NuxtLink
-                >
-                <h2>
-                  <NuxtLink href="project-details">Mad <i>Burger</i></NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/portfolio-4.png"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <NuxtLink href="projects" class="category"
-                  >Art Direction | Fotografía | Social Media</NuxtLink
-                >
-                <h2>
-                  <NuxtLink href="project-details">500 <i>Grados</i></NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/portfolio-5.png"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <NuxtLink href="projects" class="category"
-                  >Art Direction | Fotografía | Social Media</NuxtLink
-                >
-                <h2>
-                  <NuxtLink href="project-details">Sapiens</NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/portfolio-6.png"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <NuxtLink href="projects" class="category"
-                  >Art Direction | Fotografía | Social Media</NuxtLink
-                >
-                <h2>
-                  <NuxtLink href="project-details">Mayta</NuxtLink>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="project-item">
-              <div class="image wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/projects/portfolio-7.png"
-                  alt="Project Grid"
-                />
-                <NuxtLink href="project-details" class="project-btn"
-                  ><i class="far fa-arrow-right"></i
-                ></NuxtLink>
-              </div>
-              <div class="content wow fadeInUp delay-0-2s">
-                <NuxtLink href="projects" class="category"
-                  >Art Direction | Rebranding</NuxtLink
-                >
-                <h2>
-                  <NuxtLink href="project-details"
-                    >BZR <i>Contadores & Auditores</i></NuxtLink
-                  >
                 </h2>
               </div>
             </div>

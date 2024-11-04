@@ -39,19 +39,11 @@
     <section class="about-area pt-130 rpt-100 rel z-1">
       <div class="container">
         <div class="row justify-content-center">
-          <!-- <div class="col-xl-5 col-lg-3">
-            <div class="about-image rmb-45 wow fadeInUp delay-0-2s">
-              <img
-                src="/assets/images/about/circle-text.svg"
-                alt="Circle Text"
-              />
-            </div>
-          </div> -->
           <div class="col-xl-8 col-lg-9">
             <div class="about-content wow fadeInUp delay-0-4s">
               <div class="section-title mb-40">
-                <span class="sub-title mb-15">Quienes Somos</span>
-                <h2>Ayudamos marcas a alcanzar su máximo potencial</h2>
+                <span class="sub-title mb-15">Qué Hacemos</span>
+                <h2>Ayudamos a tu negocio a lograr su máximo potencial</h2>
               </div>
               <div class="content">
                 <p>
@@ -87,9 +79,8 @@
                 <div class="content">
                   <h5>Marketing y Comunicaciones</h5>
                   <p>
-                    En Panorámica Consulting usamos el mundo digital para
-                    conectar tu marca con las personas correctas en el momento
-                    adecuado.
+                    Usamos el mundo digital para conectar tu marca con las
+                    personas correctas en el momento adecuado.
                   </p>
                   <NuxtLink class="read-more style-two" href="about-marketing"
                     ><span>Ver Más</span> <i class="far fa-arrow-right"></i
@@ -101,7 +92,7 @@
                   <span>02</span>
                 </div>
                 <div class="content">
-                  <h5>Gestión Humana, Empresarial y Administrativa</h5>
+                  <h5>Gestión Humana, Empresarial</h5>
                   <p>
                     Soluciones enfocadas en ayudar a las empresas a gestionar y
                     potenciar su talento, optimizando la gestión de personal y
