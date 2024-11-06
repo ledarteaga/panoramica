@@ -5,9 +5,9 @@
       <div class="container">
         <div class="row mx-0">
           <div class="col-lg-12">
-            <h1 class="hero-title style-two rmb-50 wow fadeInUp delay-0-2s">
+            <h2 class="section-title rmb-50 wow fadeInUp delay-0-2s">
               Marketing y <br />Comunicaciones
-            </h1>
+            </h2>
           </div>
         </div>
       </div>

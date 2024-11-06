@@ -16,18 +16,12 @@
     </section>
     <!-- Page Banner Section End -->
 
-    <!-- Project Details Image start -->
-    <div class="project-details-image rel z-1">
-      <div class="container-fluid">
-        <div class="image wow fadeInUp delay-0-2s">
-          <img
-            src="/assets/images/projects/project-details.jpg"
-            alt="Project"
-          />
-        </div>
-      </div>
+    <div class="d-flex justify-content-center">
+      <VideoShowcase
+        thumbnail="/assets/images/projects/corp-fung-thumbnail.png"
+        video="https://drive.google.com/file/d/1W6lfhrZ33VsRAj8-7mIOM0Subtjnf0Il/preview"
+      />
     </div>
-    <!-- Project Details Image end -->
 
     <!-- Project Details Content Area start -->
     <section class="project-details-area pt-80 rel z-1">
@@ -56,24 +50,13 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="image mb-30 wow fadeInUp delay-0-2s">
-              <img
-                src="/assets/images/projects/project-middle1.jpg"
-                alt="Project"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="image mb-30 wow fadeInUp delay-0-4s">
-              <img
-                src="/assets/images/projects/project-middle2.jpg"
-                alt="Project"
-              />
-            </div>
-          </div>
+        <div class="d-flex justify-content-center">
+          <VideoShowcase
+            thumbnail="/assets/images/projects/corp-fung-wide-thumbnail-2.png"
+            video="https://drive.google.com/file/d/1jiC4sMhB49LQrxvzjjp2o_MLpKWZ0orj/preview"
+          />
         </div>
+
         <div class="row pt-40 pb-105 rpb-80 wow fadeInUp delay-0-2s">
           <div class="col-lg-4">
             <h3 class="title mb-30">El Resultado</h3>
@@ -94,8 +77,6 @@
   </NuxtLayout>
 </template>
 
-<script>
-export default {
-  name: "projects-details",
-};
+<script setup lang="ts">
+import VideoShowcase from "./VideoShowcase.vue";
 </script>

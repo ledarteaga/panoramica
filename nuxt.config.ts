@@ -1,10 +1,20 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
+import Aura from "@primevue/themes/aura";
+
 export default defineNuxtConfig({
   ssr: false,
-  modules: ["nuxt-swiper", "nuxt-svgo"],
+  modules: ["nuxt-swiper", "nuxt-svgo", "@primevue/nuxt-module"],
   devtools: { enabled: true },
   css: ["~/assets/sass/style.sass"],
+  primevue: {
+    options: {
+      theme: {
+        preset: Aura,
+      },
+    },
+    autoImport: true,
+  },
   app: {
     head: {
       title: "PANORÁMICA CONSULTING",

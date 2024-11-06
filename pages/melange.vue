@@ -22,9 +22,12 @@
     <!-- Page Banner Section End -->
 
     <div class="d-flex justify-content-center">
-      <VideoShowcase
-        video="https://drive.google.com/file/d/1wyheE0DmVBO6HBzicmz06zKZaC42fRfn/preview"
-      />
+      <div class="container-fluid">
+        <VideoShowcase
+          thumbnail="/assets/images/projects/melange-wide-thumbnail.jpg"
+          video="https://drive.google.com/file/d/1wyheE0DmVBO6HBzicmz06zKZaC42fRfn/preview"
+        />
+      </div>
     </div>
 
     <!-- Project Details Image start -->
@@ -83,6 +86,30 @@
                 alt="Project"
               />
             </div>
+          </div>
+          <div class="col-lg-3">
+            <VideoShowcase
+              thumbnail="/assets/images/projects/melange-thumbnail-1.png"
+              video="https://drive.google.com/file/d/1F_Fo0B-QuSwlOALKUg-Rdv5d9ddpyIk3/preview"
+            />
+          </div>
+          <div class="col-lg-3">
+            <VideoShowcase
+              thumbnail="/assets/images/projects/melange-thumbnail-2.png"
+              video="https://drive.google.com/file/d/1L3ksmoqa5b1idPaqwyH6ZsPpgil48Edx/preview"
+            />
+          </div>
+          <div class="col-lg-3">
+            <VideoShowcase
+              thumbnail="/assets/images/projects/melange-thumbnail-3.png"
+              video="https://drive.google.com/file/d/1iRcVvyUcEZOawkXUeMljFq-xMEfA13Li/preview"
+            />
+          </div>
+          <div class="col-lg-3">
+            <VideoShowcase
+              thumbnail="/assets/images/projects/melange-thumbnail-4.png"
+              video="https://drive.google.com/file/d/1jiC4sMhB49LQrxvzjjp2o_MLpKWZ0orj/preview"
+            />
           </div>
         </div>
         <div class="row pt-40 pb-105 rpb-80 wow fadeInUp delay-0-2s">

@@ -240,8 +240,7 @@
             <div
               class="section-title text-center mb-60 wow fadeInUp delay-0-2s"
             >
-              <span class="sub-title mb-20">Nuestros Clientes</span>
-              <h2>Marcas que confiaron en nosotros</h2>
+              <h2>Marcas que confiaron en nuestro talento</h2>
             </div>
           </div>
         </div>
