@@ -1,0 +1,11 @@
+# START nuxt-robots (indexable)
+User-agent: *
+Allow: /
+Allow: /about-marketing
+Allow: /about-humanos
+Allow: /about-finanzas
+Allow: /nosotros
+Disallow: 
+
+Sitemap: https://panoramica.pe/sitemap.xml
+# END nuxt-robots

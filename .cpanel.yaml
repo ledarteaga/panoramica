@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOY_PATH=/home/panopddr/public_html # Reemplaza tu_usuario con tu nombre de usuario en cPanel
+    - rsync -avz --delete ./.output/public/ $DEPLOY_PATH

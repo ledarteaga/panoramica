@@ -1,0 +1,1 @@
+import{_ as e}from"./NJx2Bei2.js";import{_ as o}from"./B3_v5Jja.js";import{I as s,J as c,H as r,D as n}from"./CdUlu0ZY.js";import"./CjcVzdsP.js";const a={},_={class:"statistics-area pt-75 rpt-45 rel z-1"},i={class:"container"};function m(p,d){const t=e;return n(),s("div",_,[c("div",i,[r(t)])])}const h=o(a,[["render",m]]);export{h as default};
