@@ -5,6 +5,7 @@
     <slot />
     <Footer :footer="footer" />
     <ScrollTop />
+    <Toast></Toast>
   </div>
 </template>
 

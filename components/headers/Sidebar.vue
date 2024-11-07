@@ -14,11 +14,11 @@
 
       <!--Appointment Form-->
       <div class="appointment-form">
-        <form method="post" @submit.prevent="toggleSidebar()">
+        <form ref="form" method="post" @submit.prevent="sendEmail">
           <div class="form-group">
             <input
               type="text"
-              name="text"
+              name="user_name"
               value=""
               placeholder="Nombre"
               required
@@ -27,17 +27,19 @@
           <div class="form-group">
             <input
               type="email"
-              name="email"
+              name="user_email"
               value=""
               placeholder="Correo"
               required
             />
           </div>
           <div class="form-group">
-            <textarea placeholder="Mensaje" rows="5"></textarea>
+            <textarea name="message" placeholder="Mensaje" rows="5"></textarea>
           </div>
           <div class="form-group">
-            <button type="submit" class="theme-btn">Enviar</button>
+            <button :disabled="sending" type="submit" class="theme-btn">
+              Enviar
+            </button>
           </div>
         </form>
       </div>
@@ -46,13 +48,49 @@
   <!--End Hidden Sidebar -->
 </template>
 
-<script>
-export default {
-  name: "Sidebar",
-  methods: {
-    toggleSidebar() {
-      document.querySelector("body").classList.remove("side-content-visible");
-    },
-  },
+<script setup lang="ts">
+import emailjs from "@emailjs/browser";
+const toast = useToast();
+const form = ref();
+const config = useRuntimeConfig();
+const sending = ref(false);
+
+const toggleSidebar = () => {
+  document.querySelector("body")?.classList.remove("side-content-visible");
+};
+
+const sendEmail = () => {
+  sending.value = true;
+
+  emailjs
+    .sendForm("service_tw9z286", "template_qtb6ggn", form.value, {
+      publicKey: config.public.emailToken,
+    })
+    .then(
+      () => {
+        toast.add({
+          severity: "success",
+          summary: "Enviado",
+          detail: "Tu mensaje ha sido enviado correctamente",
+          life: 3000,
+        });
+
+        toggleSidebar();
+      },
+      (error) => {
+        toast.add({
+          severity: "error",
+          summary: "Error",
+          detail: "Ocurrio un error al enviar el mensaje",
+          life: 3000,
+        });
+
+        console.error(error);
+      }
+    )
+
+    .finally(() => {
+      sending.value = false;
+    });
 };
 </script>

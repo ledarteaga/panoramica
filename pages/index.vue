@@ -92,7 +92,7 @@
                   <span>02</span>
                 </div>
                 <div class="content">
-                  <h5>Gestión Humana, Empresarial</h5>
+                  <h5>Gestión Humana Y Empresarial</h5>
                   <p>
                     Soluciones enfocadas en ayudar a las empresas a gestionar y
                     potenciar su talento, optimizando la gestión de personal y

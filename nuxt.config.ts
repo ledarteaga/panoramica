@@ -4,7 +4,7 @@ import Aura from "@primevue/themes/aura";
 
 export default defineNuxtConfig({
   ssr: false,
-  modules: ["nuxt-swiper", "nuxt-svgo", "@primevue/nuxt-module"],
+  modules: ["nuxt-swiper", "nuxt-svgo", "@primevue/nuxt-module", "@nuxtjs/seo"],
   devtools: { enabled: true },
   css: ["~/assets/sass/style.sass"],
   primevue: {
@@ -18,14 +18,24 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "PANORÁMICA CONSULTING",
+
       htmlAttrs: {
         lang: "es",
       },
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { hid: "description", name: "description", content: "" },
+        {
+          hid: "description",
+          name: "description",
+          content: "Ayudamos a tu negocio a lograr su máximo potencial.",
+        },
         { name: "format-detection", content: "telephone=no" },
+        {
+          name: "keywords",
+          content:
+            "Agencia, Creativa, Marketing, Social Media, Redes Sociales, Instagram, Tiktok, Facebook, Lima, Peru",
+        },
       ],
       link: [
         {
@@ -51,6 +61,23 @@ export default defineNuxtConfig({
       ],
     },
   },
-
+  site: {
+    title: "PANORÁMICA CONSULTING",
+    url: "https://panoramica.pe",
+  },
+  robots: {
+    allow: [
+      "/",
+      "/about-marketing",
+      "/about-humanos",
+      "/about-finanzas",
+      "/nosotros",
+    ],
+  },
+  runtimeConfig: {
+    public: {
+      emailToken: process.env.VITE_EMAILJS_TOKEN,
+    },
+  },
   compatibilityDate: "2024-08-18",
 });

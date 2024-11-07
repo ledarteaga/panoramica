@@ -8,7 +8,7 @@
             <div class="about-content mb-35 wow fadeInUp delay-0-2s">
               <div class="section-title mb-40">
                 <span class="sub-title mb-15">¿Qué Hacemos?</span>
-                <h2>Tu socio estratégico en gestión humana</h2>
+                <h2>Gestión Humana</h2>
               </div>
             </div>
           </div>

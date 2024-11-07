@@ -25,7 +25,7 @@
       <div class="container-fluid">
         <VideoShowcase
           thumbnail="/assets/images/projects/melange-wide-thumbnail.jpg"
-          video="https://drive.google.com/file/d/1wyheE0DmVBO6HBzicmz06zKZaC42fRfn/preview"
+          video="https://drive.google.com/file/d/1lFxqeseTBQCGPEA6uYbwbMkVaX7FhWzu/preview"
         />
       </div>
     </div>
