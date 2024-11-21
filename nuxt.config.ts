@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   modules: ["nuxt-swiper", "nuxt-svgo", "@primevue/nuxt-module", "@nuxtjs/seo"],
   devtools: { enabled: true },
   css: ["~/assets/sass/style.sass"],
+
   primevue: {
     options: {
       theme: {
@@ -15,6 +16,7 @@ export default defineNuxtConfig({
     },
     autoImport: true,
   },
+
   app: {
     head: {
       title: "PANORÁMICA CONSULTING",
@@ -61,10 +63,12 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   site: {
     title: "PANORÁMICA CONSULTING",
     url: "https://panoramica.pe",
   },
+
   robots: {
     allow: [
       "/",
@@ -74,10 +78,9 @@ export default defineNuxtConfig({
       "/nosotros",
     ],
   },
+
   runtimeConfig: {
     public: {
       emailToken: process.env.VITE_EMAILJS_TOKEN,
     },
-  },
-  compatibilityDate: "2024-08-18",
-});
+  }});

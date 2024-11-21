@@ -13,13 +13,12 @@
           <div class="col-lg-7">
             <div class="skill-content pt-40 rpt-60 wow fadeInUp delay-0-4s">
               <div class="section-title mb-40">
-                <span class="sub-title mb-15">Best Skills</span>
-                <h2>We Have Lot’s Experience and Professionals</h2>
+                <h2>Un Equipo con amplio conocimiento y dedicación</h2>
               </div>
               <p>
-                Nuestro staff está compuesto por profesionales con amplia
-                trayectoria en sus diferentes divisiones, ayudando a
-                emprendedores a alcanzar sus metas.
+                Cada miembro de nuestro equipo conoce su campo y se dedica
+                diariamente a mejorar su desempeño en él para ofrecer siempre el
+                mejor servicio.
               </p>
             </div>
           </div>
@@ -44,76 +43,7 @@
             </div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col">
-            <div class="team-member style-two member-1 wow fadeInUp delay-0-2s">
-              <div class="image">
-                <!-- <img src="/assets/images/team/member1.png" alt="Team Member" /> -->
-              </div>
-              <div class="content">
-                <h4>Claudia Fung</h4>
-                <span>Marketing</span>
-              </div>
-              <div class="btn-social">
-                <div class="social-style-two">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-member style-two member-2 wow fadeInUp delay-0-3s">
-              <div class="image">
-                <!-- <img src="/assets/images/team/member2.png" alt="Team Member" /> -->
-              </div>
-              <div class="content">
-                <h4>Jorge Arteaga</h4>
-                <span>Comunicador</span>
-              </div>
-              <div class="btn-social">
-                <div class="social-style-two">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-member style-two member-3 wow fadeInUp delay-0-4s">
-              <div class="image">
-                <!-- <img
-                  src="/assets/images/team/member3.png"
-                  class="h-100"
-                  alt="Team Member"
-                /> -->
-              </div>
-              <div class="content">
-                <h4>Corina Montoya</h4>
-                <span>RRHH</span>
-              </div>
-              <div class="btn-social">
-                <div class="social-style-two">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-member style-two member-4 wow fadeInUp delay-0-5s">
-              <div class="image">
-                <!-- <img src="/assets/images/team/member4.jpeg" alt="Team Member" /> -->
-              </div>
-              <div class="content">
-                <h4>Rodrigo Merizalde</h4>
-                <span>Economista</span>
-              </div>
-              <div class="btn-social">
-                <div class="social-style-two">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <TeamRow></TeamRow>
       </div>
     </section>
     <!-- Team Area end -->

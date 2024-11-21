@@ -8,7 +8,7 @@
             <div class="about-content mb-35 wow fadeInUp delay-0-2s">
               <div class="section-title mb-40">
                 <span class="sub-title mb-15">¿Qué Hacemos?</span>
-                <h2>Gestión Humana</h2>
+                <h2>Gestión Humana y Empresarial</h2>
               </div>
             </div>
           </div>
@@ -30,19 +30,20 @@
                   <li>Formalización empresarial</li>
                   <li>Contratos Comerciales</li>
                   <li>Gestión Tributaria</li>
+                  <li>Gestión Empresarial</li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-lg-10">
+          <!-- <div class="col-lg-10">
             <div class="image pt-30 wow fadeInUp delay-0-2s">
               <img src="/assets/images/services/humano-bg.webp" alt="About" />
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
-      <span class="big-text">Gestión Humana</span>
+      <!-- <span class="big-text">Gestión Humana</span> -->
     </section>
     <!-- Services Page About Area end -->
 

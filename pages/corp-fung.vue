@@ -78,5 +78,5 @@
 </template>
 
 <script setup lang="ts">
-import VideoShowcase from "./VideoShowcase.vue";
+import VideoShowcase from "../components/VideoShowcase.vue";
 </script>

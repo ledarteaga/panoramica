@@ -141,5 +141,5 @@
 </template>
 
 <script setup>
-import VideoShowcase from "./VideoShowcase.vue";
+import VideoShowcase from "../components/VideoShowcase.vue";
 </script>
