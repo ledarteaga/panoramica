@@ -115,7 +115,7 @@
     <!-- Service Style Two end -->
 
     <!-- Headline area start -->
-    <div class="headline-area bgc-primary pt-80 pb-65">
+    <!-- <div class="headline-area bgc-primary pt-80 pb-65">
       <div class="container-fluid">
         <div class="headline-wrap marquee">
           <span>
@@ -131,50 +131,11 @@
               <i class="fas fa-star-of-life"></i>
               <b>Gestión</b>
             </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Planificación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Educación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Gestión</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Planificación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Educación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Gestión</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Gestión</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Planificación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Educación</b>
-            </span>
-            <span class="marquee-item">
-              <i class="fas fa-star-of-life"></i>
-              <b>Gestión</b>
-            </span>
+           
           </span>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Headline Area end -->
 
     <!-- FAQ's Area start -->
@@ -259,10 +220,9 @@
                   >
                     <div class="accordion-body">
                       <p>
-                        La educación financiera te permite tomar decisiones
-                        financieras informadas, ahorrar dinero, invertir de
-                        manera inteligente y alcanzar tus metas financieras a
-                        largo plazo.
+                        La educación financiera te permite ahorrar dinero,
+                        invertir de manera inteligente y alcanzar tus metas
+                        financieras a largo plazo.
                       </p>
                     </div>
                   </div>

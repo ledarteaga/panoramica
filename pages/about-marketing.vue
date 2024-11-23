@@ -38,8 +38,7 @@
                   Nos especializamos en crear desde la estrategia de marketing
                   de una marca, hasta su contenido digital para diferentes
                   plataformas. Abordando campos como el diseño grafico,
-                  fotografia, web y audiovisual, todo lo que una marca necesita
-                  para ser más robusta en el 2025.
+                  fotografia, web y audiovisual.
                 </p>
                 <ul class="list-style-three pt-15 pb-25">
                   <li>Videos</li>

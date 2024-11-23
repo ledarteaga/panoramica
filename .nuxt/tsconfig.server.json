@@ -130,6 +130,15 @@
       ],
       "#internal/nuxt-robots/*": [
         "../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables/*"
+      ],
+      "#content/server": [
+        "../node_modules/nuxt-link-checker/dist/runtime/nitro/composables/content-mock"
+      ],
+      "#link-checker/pure": [
+        "../node_modules/nuxt-link-checker/dist/runtime/pure"
+      ],
+      "#link-checker/pure/*": [
+        "../node_modules/nuxt-link-checker/dist/runtime/pure/*"
       ]
     },
     "lib": [

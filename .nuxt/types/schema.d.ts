@@ -8742,6 +8742,26 @@ declare module 'nuxt/schema' {
       version: string,
    },
 
+   "nuxt-link-checker": {
+      version: string,
+
+      hasSitemapModule: boolean,
+
+      rootDir: string,
+
+      isNuxtContentDocumentDriven: boolean,
+
+      excludeLinks: Array<any>,
+
+      skipInspections: Array<any>,
+
+      fetchTimeout: number,
+
+      showLiveInspections: boolean,
+
+      fetchRemoteUrls: boolean,
+   },
+
    "nuxt-seo": {
       canonicalQueryWhitelist: Array<string>,
    },

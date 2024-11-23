@@ -17,7 +17,7 @@
       <div class="container-fluid mt-15">
         <div class="hero-bottom-image">
           <img src="/assets/images/hero/index-bg.webp" alt="Hero" />
-          <div class="hero-social">
+          <!-- <div class="hero-social">
             <a href="#"
               ><i class="fab fa-facebook-f"></i> <span>Facebook</span></a
             >
@@ -26,7 +26,7 @@
               ><i class="fab fa-dribbble"></i> <span>Dribbble</span></a
             >
             <a href="#"><i class="fab fa-behance"></i> <span>Behance</span></a>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- <div class="hero-bg">
