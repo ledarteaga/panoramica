@@ -22,7 +22,7 @@
             <div class="service-about-image rmb-55 wow fadeInUp delay-0-2s">
               <img
                 class="d-block mx-auto"
-                src="/assets/images/about/about-three.jpg"
+                src="/public/assets/images/banner/team-banner.webp"
                 alt="About"
               />
             </div>

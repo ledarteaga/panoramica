@@ -32,6 +32,12 @@
         "../*",
         "../*"
       ],
+      "nitropack/types": [
+        "../node_modules/nitropack/types"
+      ],
+      "nitropack/runtime": [
+        "../node_modules/nitropack/runtime"
+      ],
       "nitropack": [
         "../node_modules/nitropack"
       ],
@@ -65,8 +71,8 @@
       "nuxt": [
         "../node_modules/nuxt"
       ],
-      "#internal/nuxt/paths": [
-        "../node_modules/nuxt/dist/core/runtime/nitro/paths"
+      "vite/client": [
+        "../node_modules/vite/client"
       ],
       "~": [
         "./.."
@@ -80,6 +86,9 @@
       "@@": [
         "./.."
       ],
+      "#shared": [
+        "../shared"
+      ],
       "assets": [
         "../assets"
       ],
@@ -92,8 +101,23 @@
       "public/*": [
         "../public/*"
       ],
+      "#build": [
+        "./"
+      ],
+      "#build/*": [
+        "./*"
+      ],
+      "#internal/nuxt/paths": [
+        "../node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
       "#primevue-style": [
         "./primevue-style"
+      ],
+      "#site-config": [
+        "../node_modules/nuxt-site-config/dist/runtime"
+      ],
+      "#site-config/*": [
+        "../node_modules/nuxt-site-config/dist/runtime/*"
       ],
       "#robots": [
         "../node_modules/@nuxtjs/robots/dist/runtime"
@@ -107,38 +131,44 @@
       "#sitemap/*": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime/*"
       ],
+      "#schema-org": [
+        "../node_modules/nuxt-schema-org/dist/runtime"
+      ],
+      "#schema-org/*": [
+        "../node_modules/nuxt-schema-org/dist/runtime/*"
+      ],
+      "#link-checker": [
+        "../node_modules/nuxt-link-checker/dist/runtime"
+      ],
+      "#link-checker/*": [
+        "../node_modules/nuxt-link-checker/dist/runtime/*"
+      ],
+      "#seo-utils": [
+        "../node_modules/nuxt-seo-utils/dist/runtime"
+      ],
+      "#seo-utils/*": [
+        "../node_modules/nuxt-seo-utils/dist/runtime/*"
+      ],
       "#vue-router": [
         "./vue-router"
       ],
-      "#site-config": [
-        "../node_modules/nuxt-site-config/dist/runtime"
-      ],
-      "#site-config/*": [
-        "../node_modules/nuxt-site-config/dist/runtime/*"
-      ],
       "#internal/nuxt-site-config": [
-        "../node_modules/nuxt-site-config/dist/runtime/nitro/composable-barrel-deprecated"
+        "../node_modules/nuxt-site-config/dist/runtime/server/composable-barrel-deprecated"
       ],
       "#internal/nuxt-simple-robots": [
-        "../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables"
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables"
       ],
       "#internal/nuxt-simple-robots/*": [
-        "../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables/*"
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables/*"
       ],
       "#internal/nuxt-robots": [
-        "../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables"
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables"
       ],
       "#internal/nuxt-robots/*": [
-        "../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables/*"
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables/*"
       ],
-      "#content/server": [
-        "../node_modules/nuxt-link-checker/dist/runtime/nitro/composables/content-mock"
-      ],
-      "#link-checker/pure": [
-        "../node_modules/nuxt-link-checker/dist/runtime/pure"
-      ],
-      "#link-checker/pure/*": [
-        "../node_modules/nuxt-link-checker/dist/runtime/pure/*"
+      "#link-checker/content-provider": [
+        "../node_modules/nuxt-link-checker/dist/runtime/server/providers/noop"
       ]
     },
     "lib": [
@@ -153,12 +183,12 @@
     "../node_modules/nuxt-svgo/runtime/server",
     "../node_modules/@primevue/nuxt-module/runtime/server",
     "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
-    "../node_modules/@nuxtjs/robots/dist/module.mjs/runtime/server",
-    "../node_modules/@nuxtjs/sitemap/dist/module.mjs/runtime/server",
-    "../node_modules/nuxt-og-image/dist/module.mjs/runtime/server",
-    "../node_modules/nuxt-schema-org/dist/module.mjs/runtime/server",
-    "../node_modules/nuxt-seo-experiments/dist/module.mjs/runtime/server",
-    "../node_modules/nuxt-link-checker/dist/module.mjs/runtime/server",
+    "../node_modules/@nuxtjs/robots/runtime/server",
+    "../node_modules/@nuxtjs/sitemap/runtime/server",
+    "../node_modules/nuxt-og-image/runtime/server",
+    "../node_modules/nuxt-schema-org/runtime/server",
+    "../node_modules/nuxt-link-checker/runtime/server",
+    "../node_modules/nuxt-seo-utils/runtime/server",
     "../node_modules/@nuxtjs/seo/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
@@ -172,13 +202,19 @@
   "exclude": [
     "../node_modules",
     "../node_modules/nuxt/node_modules",
-    "../node_modules/nuxt-site-config/dist/node_modules",
-    "../node_modules/@nuxtjs/robots/dist/node_modules",
-    "../node_modules/@nuxtjs/sitemap/dist/node_modules",
-    "../node_modules/nuxt-og-image/dist/node_modules",
-    "../node_modules/nuxt-schema-org/dist/node_modules",
-    "../node_modules/nuxt-seo-experiments/dist/node_modules",
-    "../node_modules/nuxt-link-checker/dist/node_modules",
+    "../node_modules/nuxt-swiper/node_modules",
+    "../node_modules/nuxt-svgo/node_modules",
+    "../node_modules/@primevue/nuxt-module/node_modules",
+    "../node_modules/nuxt-site-config/node_modules",
+    "../node_modules/@nuxtjs/robots/node_modules",
+    "../node_modules/@nuxtjs/sitemap/node_modules",
+    "../node_modules/nuxt-og-image/node_modules",
+    "../node_modules/nuxt-schema-org/node_modules",
+    "../node_modules/nuxt-link-checker/node_modules",
+    "../node_modules/nuxt-seo-utils/node_modules",
+    "../node_modules/@nuxtjs/seo/node_modules",
+    "../node_modules/@nuxt/devtools/node_modules",
+    "../node_modules/@nuxt/telemetry/node_modules",
     "../dist"
   ]
 }

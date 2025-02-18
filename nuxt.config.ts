@@ -28,7 +28,7 @@ export default defineNuxtConfig({
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
-          hid: "description",
+          key: "description",
           name: "description",
           content: "Ayudamos a tu negocio a lograr su máximo potencial.",
         },
@@ -64,10 +64,10 @@ export default defineNuxtConfig({
     },
   },
 
-  site: {
-    title: "PANORÁMICA CONSULTING",
-    url: "https://panoramica.pe",
-  },
+  // site: {
+  //   title: "PANORÁMICA CONSULTING",
+  //   url: "https://panoramica.pe",
+  // },
 
   robots: {
     allow: [
@@ -83,4 +83,7 @@ export default defineNuxtConfig({
     public: {
       emailToken: process.env.VITE_EMAILJS_TOKEN,
     },
-  }});
+  },
+
+  compatibilityDate: "2025-02-18",
+});

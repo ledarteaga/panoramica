@@ -14,37 +14,37 @@ declare module '@nuxt/schema' {
      */
     ["primevue"]: typeof import("@primevue/nuxt-module").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module`
+     * Configuration for `/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module`
      */
-    ["site"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["site"]: typeof import("/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module`
+     * Configuration for `@nuxtjs/robots`
      */
-    ["robots"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["robots"]: typeof import("@nuxtjs/robots").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module`
+     * Configuration for `@nuxtjs/sitemap`
      */
-    ["sitemap"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["sitemap"]: typeof import("@nuxtjs/sitemap").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module`
+     * Configuration for `nuxt-og-image`
      */
-    ["ogImage"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["ogImage"]: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module`
+     * Configuration for `nuxt-schema-org`
      */
-    ["schemaOrg"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["schemaOrg"]: typeof import("nuxt-schema-org").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module`
+     * Configuration for `nuxt-link-checker`
      */
-    ["seoExperiments"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["linkChecker"]: typeof import("nuxt-link-checker").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module`
+     * Configuration for `nuxt-seo-utils`
      */
-    ["linkChecker"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["seo"]: typeof import("nuxt-seo-utils").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
      * Configuration for `@nuxtjs/seo`
      */
-    ["seo"]: typeof import("@nuxtjs/seo").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["nuxtseo"]: typeof import("@nuxtjs/seo").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
      * Configuration for `@nuxt/devtools`
      */
@@ -68,37 +68,37 @@ declare module '@nuxt/schema' {
      */
     ["primevue"]?: typeof import("@primevue/nuxt-module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module`
+     * Configuration for `/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module`
      */
-    ["site"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["site"]?: typeof import("/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module`
+     * Configuration for `@nuxtjs/robots`
      */
-    ["robots"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["robots"]?: typeof import("@nuxtjs/robots").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module`
+     * Configuration for `@nuxtjs/sitemap`
      */
-    ["sitemap"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["sitemap"]?: typeof import("@nuxtjs/sitemap").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module`
+     * Configuration for `nuxt-og-image`
      */
-    ["ogImage"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["ogImage"]?: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module`
+     * Configuration for `nuxt-schema-org`
      */
-    ["schemaOrg"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["schemaOrg"]?: typeof import("nuxt-schema-org").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module`
+     * Configuration for `nuxt-link-checker`
      */
-    ["seoExperiments"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["linkChecker"]?: typeof import("nuxt-link-checker").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module`
+     * Configuration for `nuxt-seo-utils`
      */
-    ["linkChecker"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["seo"]?: typeof import("nuxt-seo-utils").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
      * Configuration for `@nuxtjs/seo`
      */
-    ["seo"]?: typeof import("@nuxtjs/seo").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["nuxtseo"]?: typeof import("@nuxtjs/seo").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
      * Configuration for `@nuxt/devtools`
      */
@@ -107,7 +107,7 @@ declare module '@nuxt/schema' {
      * Configuration for `@nuxt/telemetry`
      */
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
-    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["nuxt-swiper", Exclude<NuxtConfig["swiper"], boolean>] | ["nuxt-svgo", Exclude<NuxtConfig["svgo"], boolean>] | ["@primevue/nuxt-module", Exclude<NuxtConfig["primevue"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module", Exclude<NuxtConfig["robots"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module", Exclude<NuxtConfig["sitemap"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module", Exclude<NuxtConfig["ogImage"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module", Exclude<NuxtConfig["seoExperiments"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module", Exclude<NuxtConfig["linkChecker"], boolean>] | ["@nuxtjs/seo", Exclude<NuxtConfig["seo"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["nuxt-swiper", Exclude<NuxtConfig["swiper"], boolean>] | ["nuxt-svgo", Exclude<NuxtConfig["svgo"], boolean>] | ["@primevue/nuxt-module", Exclude<NuxtConfig["primevue"], boolean>] | ["/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["nuxt-link-checker", Exclude<NuxtConfig["linkChecker"], boolean>] | ["nuxt-seo-utils", Exclude<NuxtConfig["seo"], boolean>] | ["@nuxtjs/seo", Exclude<NuxtConfig["nuxtseo"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
   }
 }
 declare module 'nuxt/schema' {
@@ -128,45 +128,45 @@ declare module 'nuxt/schema' {
      */
     ["primevue"]: typeof import("@primevue/nuxt-module").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module
+     * Configuration for `/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module`
+     * @see https://www.npmjs.com/package//Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module
      */
-    ["site"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["site"]: typeof import("/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module
+     * Configuration for `@nuxtjs/robots`
+     * @see https://www.npmjs.com/package/@nuxtjs/robots
      */
-    ["robots"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["robots"]: typeof import("@nuxtjs/robots").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module
+     * Configuration for `@nuxtjs/sitemap`
+     * @see https://www.npmjs.com/package/@nuxtjs/sitemap
      */
-    ["sitemap"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["sitemap"]: typeof import("@nuxtjs/sitemap").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module
+     * Configuration for `nuxt-og-image`
+     * @see https://www.npmjs.com/package/nuxt-og-image
      */
-    ["ogImage"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["ogImage"]: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module
+     * Configuration for `nuxt-schema-org`
+     * @see https://www.npmjs.com/package/nuxt-schema-org
      */
-    ["schemaOrg"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["schemaOrg"]: typeof import("nuxt-schema-org").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module
+     * Configuration for `nuxt-link-checker`
+     * @see https://www.npmjs.com/package/nuxt-link-checker
      */
-    ["seoExperiments"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["linkChecker"]: typeof import("nuxt-link-checker").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module
+     * Configuration for `nuxt-seo-utils`
+     * @see https://www.npmjs.com/package/nuxt-seo-utils
      */
-    ["linkChecker"]: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["seo"]: typeof import("nuxt-seo-utils").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
      * Configuration for `@nuxtjs/seo`
      * @see https://www.npmjs.com/package/@nuxtjs/seo
      */
-    ["seo"]: typeof import("@nuxtjs/seo").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["nuxtseo"]: typeof import("@nuxtjs/seo").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
      * Configuration for `@nuxt/devtools`
      * @see https://www.npmjs.com/package/@nuxt/devtools
@@ -195,45 +195,45 @@ declare module 'nuxt/schema' {
      */
     ["primevue"]?: typeof import("@primevue/nuxt-module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module
+     * Configuration for `/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module`
+     * @see https://www.npmjs.com/package//Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module
      */
-    ["site"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["site"]?: typeof import("/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module
+     * Configuration for `@nuxtjs/robots`
+     * @see https://www.npmjs.com/package/@nuxtjs/robots
      */
-    ["robots"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["robots"]?: typeof import("@nuxtjs/robots").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module
+     * Configuration for `@nuxtjs/sitemap`
+     * @see https://www.npmjs.com/package/@nuxtjs/sitemap
      */
-    ["sitemap"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["sitemap"]?: typeof import("@nuxtjs/sitemap").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module
+     * Configuration for `nuxt-og-image`
+     * @see https://www.npmjs.com/package/nuxt-og-image
      */
-    ["ogImage"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["ogImage"]?: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module
+     * Configuration for `nuxt-schema-org`
+     * @see https://www.npmjs.com/package/nuxt-schema-org
      */
-    ["schemaOrg"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["schemaOrg"]?: typeof import("nuxt-schema-org").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module
+     * Configuration for `nuxt-link-checker`
+     * @see https://www.npmjs.com/package/nuxt-link-checker
      */
-    ["seoExperiments"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["linkChecker"]?: typeof import("nuxt-link-checker").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module
+     * Configuration for `nuxt-seo-utils`
+     * @see https://www.npmjs.com/package/nuxt-seo-utils
      */
-    ["linkChecker"]?: typeof import("C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["seo"]?: typeof import("nuxt-seo-utils").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
      * Configuration for `@nuxtjs/seo`
      * @see https://www.npmjs.com/package/@nuxtjs/seo
      */
-    ["seo"]?: typeof import("@nuxtjs/seo").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["nuxtseo"]?: typeof import("@nuxtjs/seo").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
      * Configuration for `@nuxt/devtools`
      * @see https://www.npmjs.com/package/@nuxt/devtools
@@ -244,7 +244,7 @@ declare module 'nuxt/schema' {
      * @see https://www.npmjs.com/package/@nuxt/telemetry
      */
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
-    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["nuxt-swiper", Exclude<NuxtConfig["swiper"], boolean>] | ["nuxt-svgo", Exclude<NuxtConfig["svgo"], boolean>] | ["@primevue/nuxt-module", Exclude<NuxtConfig["primevue"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/robots/dist/module", Exclude<NuxtConfig["robots"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/@nuxtjs/sitemap/dist/module", Exclude<NuxtConfig["sitemap"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-og-image/dist/module", Exclude<NuxtConfig["ogImage"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-schema-org/dist/module", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-seo-experiments/dist/module", Exclude<NuxtConfig["seoExperiments"], boolean>] | ["C:/Users/ledar/Proyectos/panoramica/node_modules/nuxt-link-checker/dist/module", Exclude<NuxtConfig["linkChecker"], boolean>] | ["@nuxtjs/seo", Exclude<NuxtConfig["seo"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["nuxt-swiper", Exclude<NuxtConfig["swiper"], boolean>] | ["nuxt-svgo", Exclude<NuxtConfig["svgo"], boolean>] | ["@primevue/nuxt-module", Exclude<NuxtConfig["primevue"], boolean>] | ["/Users/ledarteaga/Developer/panoramica/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["nuxt-link-checker", Exclude<NuxtConfig["linkChecker"], boolean>] | ["nuxt-seo-utils", Exclude<NuxtConfig["seo"], boolean>] | ["@nuxtjs/seo", Exclude<NuxtConfig["nuxtseo"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
   }
   interface RuntimeConfig {
    app: {
@@ -332,31 +332,7 @@ declare module 'nuxt/schema' {
    "nuxt-robots": {
       version: string,
 
-      usingNuxtContent: boolean,
-
-      debug: boolean,
-
-      credits: boolean,
-
-      groups: Array<{
-
-      }>,
-
-      sitemap: Array<string>,
-
-      header: boolean,
-
-      robotsEnabledValue: string,
-
-      robotsDisabledValue: string,
-
-      cacheControl: string,
-   },
-
-   "nuxt-simple-robots": {
-      version: string,
-
-      usingNuxtContent: boolean,
+      isNuxtContentV2: boolean,
 
       debug: boolean,
 
@@ -412,531 +388,531 @@ declare module 'nuxt/schema' {
                   },
 
                   emerald: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   green: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   lime: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   red: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   orange: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   amber: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   yellow: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   teal: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   cyan: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   sky: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   blue: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   indigo: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   violet: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   purple: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   fuchsia: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   pink: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   rose: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   slate: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   gray: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   zinc: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   neutral: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   stone: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
                },
 
@@ -962,27 +938,27 @@ declare module 'nuxt/schema' {
                   anchorGutter: string,
 
                   primary: {
-                     50: string,
+                     "50": string,
 
-                     100: string,
+                     "100": string,
 
-                     200: string,
+                     "200": string,
 
-                     300: string,
+                     "300": string,
 
-                     400: string,
+                     "400": string,
 
-                     500: string,
+                     "500": string,
 
-                     600: string,
+                     "600": string,
 
-                     700: string,
+                     "700": string,
 
-                     800: string,
+                     "800": string,
 
-                     900: string,
+                     "900": string,
 
-                     950: string,
+                     "950": string,
                   },
 
                   formField: {
@@ -1112,27 +1088,27 @@ declare module 'nuxt/schema' {
                         surface: {
                            0: string,
 
-                           50: string,
+                           "50": string,
 
-                           100: string,
+                           "100": string,
 
-                           200: string,
+                           "200": string,
 
-                           300: string,
+                           "300": string,
 
-                           400: string,
+                           "400": string,
 
-                           500: string,
+                           "500": string,
 
-                           600: string,
+                           "600": string,
 
-                           700: string,
+                           "700": string,
 
-                           800: string,
+                           "800": string,
 
-                           900: string,
+                           "900": string,
 
-                           950: string,
+                           "950": string,
                         },
 
                         primary: {
@@ -1320,27 +1296,27 @@ declare module 'nuxt/schema' {
                         surface: {
                            0: string,
 
-                           50: string,
+                           "50": string,
 
-                           100: string,
+                           "100": string,
 
-                           200: string,
+                           "200": string,
 
-                           300: string,
+                           "300": string,
 
-                           400: string,
+                           "400": string,
 
-                           500: string,
+                           "500": string,
 
-                           600: string,
+                           "600": string,
 
-                           700: string,
+                           "700": string,
 
-                           800: string,
+                           "800": string,
 
-                           900: string,
+                           "900": string,
 
-                           950: string,
+                           "950": string,
                         },
 
                         primary: {
@@ -8734,7 +8710,7 @@ declare module 'nuxt/schema' {
       minify: boolean,
 
       scriptAttributes: {
-         id: string,
+         "data-nuxt-schema-org": boolean,
       },
 
       identity: any,
@@ -8749,8 +8725,6 @@ declare module 'nuxt/schema' {
 
       rootDir: string,
 
-      isNuxtContentDocumentDriven: boolean,
-
       excludeLinks: Array<any>,
 
       skipInspections: Array<any>,
@@ -8762,7 +8736,7 @@ declare module 'nuxt/schema' {
       fetchRemoteUrls: boolean,
    },
 
-   "nuxt-seo": {
+   "seo-utils": {
       canonicalQueryWhitelist: Array<string>,
    },
   }

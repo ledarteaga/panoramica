@@ -16,7 +16,7 @@
       </div>
       <div class="container-fluid mt-15">
         <div class="hero-bottom-image">
-          <img src="/assets/images/hero/index-bg.webp" alt="Hero" />
+          <img src="/public/assets/images/hero/team-hero.webp" alt="Hero" />
           <!-- <div class="hero-social">
             <a href="#"
               ><i class="fab fa-facebook-f"></i> <span>Facebook</span></a
@@ -267,5 +267,9 @@ import { ygencyUtilits } from "~/utilits.js";
 
 onMounted(() => {
   ygencyUtilits.counterUp();
+});
+
+useSeoMeta({
+  description: "Ayudamos a tu negocio a lograr su máximo potencial.",
 });
 </script>

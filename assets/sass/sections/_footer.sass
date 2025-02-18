@@ -6,10 +6,10 @@
     background-size: cover
     background-position: center center
     background-repeat: no-repeat
-    
+
 .footer-top
     border-bottom: 1px solid $color-border
-    
+
 .lets-work
     img
         float: left
@@ -20,16 +20,11 @@
             +size(30px)
     span
         color: white
-        font-size: 85px
+        font-size: $h1-size
         font-weight: 600
         line-height: 1.1
-        +res-bl(xl)
-            font-size: 65px
-        +res-bl(sm)
-            font-size: 30px
-        +res-bl(xs)
-            font-size: 30px
-    
+        font-size: $footer-header-size
+
 .footer-contact-info
     .theme-btn.style-three
         margin-top: 15px
@@ -45,7 +40,7 @@
             color: $color-secondary
             background: transparent
             border-color: $color-border
-                
+
 .footer-right-content
     +res-ab(xxl)
         border-left: 1px solid $color-border
@@ -57,10 +52,10 @@
         display: flex
         flex-wrap: wrap
         justify-content: space-between
-                
+
 .footer-title
     margin-bottom: 28px
-    
+
 .footer-bottom-menu
     ul
         flex-wrap: wrap
@@ -70,7 +65,7 @@
             margin: 0 30px 5px 0
             a
                 color: white
-                
+
 .copyright-text
     border-top: 1px solid $color-border
     border-left: 1px solid $color-border
@@ -83,7 +78,7 @@
         margin-bottom: 5px
     a
         color: $color-primary
-        
+
 /* Footer Two */
 .footer-widget
     margin-bottom: 50px
@@ -115,7 +110,7 @@
         font-size: 40px
     +res-bl(xs)
         font-size: 35px
-    
+
 .footer-text
     max-width: 250px
     a
@@ -125,7 +120,7 @@
         &:hover
             color: $color-primary
             text-decoration: none
-    
+
 .footer-newsletter
     display: flex
     margin-bottom: 30px
@@ -142,7 +137,7 @@
         background: transparent
         transform: rotate(-45deg)
         color: rgba(255, 255, 255, 0.65)
-    
+
 .newsletter-widget
     .policy
         display: flex
@@ -153,7 +148,7 @@
             margin-bottom: 0
             a
                 text-decoration: underline
-        
+
 /* Footer top two */
 .footer-three
     .copyright-area
@@ -167,7 +162,7 @@
             &:hover
                 color: $color-primary
                 text-decoration: underline
-            
+
 /* Footer Four */
 .footer-four
     .social-style-four
@@ -187,7 +182,7 @@
         border-top: 1px solid rgba(255, 255, 255, 0.1)
         a
             color: $color-primary
-            
+
 /* Footer Five */
 .footer-five
     .footer-bottom-menu ul li a:hover,

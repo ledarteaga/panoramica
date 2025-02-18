@@ -117,11 +117,7 @@
                 font-family: $font-secondary
                 text-transform: capitalize
                 transition: all 500ms ease
-                +res-ab(xs)
-                    font-size: 18px
-                +res-bl(lg)
-                    padding: 10px 10px
-                    line-height: 22px
+                font-size: $base-size
                 &:hover
                     color: $color-primary
                     text-decoration: underline
@@ -248,18 +244,20 @@
 /* Menu Sidebar */
 .menu-sidebar
     display: flex
-    
+
     +res-bl(ms)
         margin-left: 25px
     +res-bl(sm)
         margin-left: 0
         margin-top: 8px
         margin-bottom: 8px
-        
+
     button
         cursor: pointer
         background-color: $color-primary
-        border-radius: 10px
+        border-radius: 3px
+        font-size: $base-size
+        font-family: $font-secondary
         // +circle($color-primary, 50px)
         img
             margin-top: -4px
@@ -285,10 +283,10 @@
 
     +res-bl(lg)
         width: 550px
-    
+
     +res-bl(sm)
         width: 100%
-        
+
     .social-style-one
         a
             +size(40px)
@@ -449,7 +447,7 @@
         line-height: 1.75
         span
             display: block
-            font-size: $base-size - 2
+            font-size: $base-size
         a
             color: white
             font-weight: 600

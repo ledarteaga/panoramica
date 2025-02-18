@@ -7,7 +7,10 @@
         <div class="row gap-120 align-items-center justify-content-between">
           <div class="col-lg-5">
             <div class="skill-image wow fadeInUp delay-0-2s">
-              <img src="/assets/images/team/skill-left.png" alt="Skill" />
+              <img
+                src="/public/assets/images/banner/team-banner-3.webp"
+                alt="Skill"
+              />
             </div>
           </div>
           <div class="col-lg-7">

@@ -21,23 +21,24 @@
 .hero-content
     h1
         line-height: 1
-        font-size: 150px
         font-weight: 700
         position: relative
         margin-bottom: -85px
         text-transform: uppercase
-        +res-bl(xxl)
-            font-size: 150px
-        +res-bl(lg)
-            font-size: 115px
-        +res-bl(md)
-            font-size: 85px
-            margin-bottom: -30px
-        +res-bl(ms)
-            font-size: 40px
-        +res-bl(xs)
-            font-size: 35px
-            max-width: 250px
+        font-size: $h1-size
+
+        // +res-bl(xxl)
+        //     font-size: 150px
+        // +res-bl(lg)
+        //     font-size: 115px
+        // +res-bl(md)
+        //     font-size: 85px
+        //     margin-bottom: -30px
+        // +res-bl(ms)
+        //     font-size: 40px
+        // +res-bl(xs)
+        //     font-size: 35px
+        //     max-width: 250px
         span
             color: transparent
             -webkit-text-stroke: 1px
@@ -259,7 +260,7 @@
         border-radius: 250px 250px 0 0
 
 .what-we-do-image
-    background-image: url('/assets/images/services/nuestros-servicios-bg.webp')
+    background-image: url("/public/assets/images/banner/team-banner-2.webp")
     background-position: center
     background-size: cover
     height: 100%

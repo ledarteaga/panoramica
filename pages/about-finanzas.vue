@@ -33,7 +33,10 @@
           </div>
           <div class="col-lg-10">
             <div class="image pt-30 wow fadeInUp delay-0-2s">
-              <img src="/assets/images/services/finanzas-bg.webp" alt="About" />
+              <img
+                src="/public/assets/images/banner/finanzas-banner.webp"
+                alt="About"
+              />
             </div>
           </div>
         </div>
@@ -144,7 +147,10 @@
         <div class="row align-items-center gap-100">
           <div class="col-lg-5">
             <div class="faq-iamge-part rmb-55 wow fadeInLeft delay-0-2s">
-              <img src="/assets/images/faqs/faq-two.jpg" alt="FAQs" />
+              <img
+                src="/public/assets/images/banner/team-banner-1.webp"
+                alt="FAQs"
+              />
             </div>
           </div>
           <div class="col-lg-7">
