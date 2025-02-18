@@ -137,12 +137,6 @@
       "#schema-org/*": [
         "../node_modules/nuxt-schema-org/dist/runtime/*"
       ],
-      "#link-checker": [
-        "../node_modules/nuxt-link-checker/dist/runtime"
-      ],
-      "#link-checker/*": [
-        "../node_modules/nuxt-link-checker/dist/runtime/*"
-      ],
       "#seo-utils": [
         "../node_modules/nuxt-seo-utils/dist/runtime"
       ],
@@ -166,9 +160,6 @@
       ],
       "#internal/nuxt-robots/*": [
         "../node_modules/@nuxtjs/robots/dist/runtime/server/composables/*"
-      ],
-      "#link-checker/content-provider": [
-        "../node_modules/nuxt-link-checker/dist/runtime/server/providers/noop"
       ]
     },
     "lib": [

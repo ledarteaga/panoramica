@@ -44,5 +44,4 @@ export { useRobotsRule } from '../node_modules/@nuxtjs/robots/dist/runtime/app/c
 export { useSchemaOrg } from '../node_modules/nuxt-schema-org/dist/runtime/app/composables/useSchemaOrg';
 export { useI18n } from '../node_modules/nuxt-seo-utils/dist/runtime/app/composables/polyfills';
 export { useBreadcrumbItems } from '../node_modules/nuxt-seo-utils/dist/runtime/app/composables/useBreadcrumbItems';
-export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';
