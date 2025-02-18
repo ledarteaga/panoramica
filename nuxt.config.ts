@@ -19,6 +19,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      titleTemplate: "%s",
       title: "PANORÁMICA CONSULTING",
 
       htmlAttrs: {
